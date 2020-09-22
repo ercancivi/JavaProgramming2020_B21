@@ -1,4 +1,4 @@
-package day03_Variables;
+package day04;
 
 public class CalculateAreaAndPerimeterOfCircle {
 
@@ -13,13 +13,12 @@ public class CalculateAreaAndPerimeterOfCircle {
 
         double area = PI * radius * radius;
         System.out.print("Area of Circle is : ");
-        System.out.print(area);
+        System.out.println(area);
 
-        System.out.println();
 
         double perimeter = 2 * PI * radius;
         System.out.print("Perimeter of Circle is : ");
-        System.out.print(perimeter);
+        System.out.println(perimeter);
 
     }
 
