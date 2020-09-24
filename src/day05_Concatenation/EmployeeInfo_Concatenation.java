@@ -1,6 +1,6 @@
-package day04;
+package day05_Concatenation;
 
-public class EmployeeInfo {
+public class EmployeeInfo_Concatenation {
 
     public static void main(String[] args) {
 
@@ -29,9 +29,10 @@ public class EmployeeInfo {
                         John Daniel is full time employee: true
                         John Daniel is married: false
          */
-        String firstName = "John";
+        String firstName = "John";  // "" for texts
         String lastName = "Daniel";
-        char gender = 'M';
+        String fullName = firstName + " " + lastName;   // String ==> text
+        char gender = 'M';  // '' for single characters
         int age = 35;
         String companyName = "CapitalOne";
         String jobTitle = "SDET";
@@ -39,15 +40,14 @@ public class EmployeeInfo {
         boolean isMarried = false;
         double salary = 120000.50;
 
-        System.out.println("Employee full name is: " + firstName + ' ' + lastName);
-        System.out.println(firstName + ' ' + lastName + " gender is: " + gender);
-        System.out.println(firstName + ' ' + lastName + " age is: " + age + " years old");
-        System.out.println(firstName + ' ' + lastName + " works at: " + companyName);
-        System.out.println(firstName + ' ' + lastName + " Job Title is: " + jobTitle);
-        System.out.println(firstName + ' ' + lastName + " salary is: " + salary);
-        System.out.println(firstName + ' ' + lastName + " is full time employee: " + isFullTime);
-        System.out.println(firstName + ' ' + lastName + " is married: " + isMarried);
-
+        System.out.println("Employee full name is: " + fullName);
+        System.out.println(fullName + " gender is: " + gender);
+        System.out.println(fullName + " age is: " + age + " years old");
+        System.out.println(fullName + " works at: " + companyName);
+        System.out.println(fullName + " Job Title is: " + jobTitle);
+        System.out.println(fullName + " salary is: $ " + salary);
+        System.out.println(fullName + " is full time employee: " + isFullTime);
+        System.out.println(fullName + " is married: " + isMarried);
 
     }
 
