@@ -1,4 +1,4 @@
-package day05_Concatenation;
+package day06_ArithmeticOperators;
 
 public class SalaryCalculator {
 
@@ -13,15 +13,15 @@ public class SalaryCalculator {
                      Your salary after tax: YourSalaryAfterTax
          */
         int salary = 150_000;
-        float stateTaxRate = 0.0625F;
+        float stateTaxRate = 0.00F;
         float federalTaxRate = 0.22F;
         double stateTax = stateTaxRate * salary;
         double federalTax = federalTaxRate * salary;
         double totalTax = stateTax + federalTax;
         double salaryAfterTax = salary - totalTax;
 
-        System.out.println("My salary is: " + salary + "\nMy State Tax: " + stateTax + "\nMy Federal Tax: " + federalTax
-                                            + "\nMy Total Tax: " + totalTax + "\nMy salary after tax: " + salaryAfterTax);
+        System.out.println("My salary is: $ " + salary + "\nMy State Tax: $ " + stateTax + "\nMy Federal Tax: $ " + federalTax
+                                            + "\nMy Total Tax: $ " + totalTax + "\nMy salary after tax: $ " + salaryAfterTax);
 
     }
 
