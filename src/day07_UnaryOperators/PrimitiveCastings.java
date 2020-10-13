@@ -43,7 +43,6 @@ public class PrimitiveCastings {
         System.out.println(b2);
 
 
-
     }
 
 }

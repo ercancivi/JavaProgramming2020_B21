@@ -27,6 +27,7 @@ public class Concatenation_Practice {
         String carInfo = year + " " + brand + " " + model + ", " + mileage + " miles, " + color + ", $" + price; //concatenation
         System.out.println(carInfo);
 
+
     }
 
 }

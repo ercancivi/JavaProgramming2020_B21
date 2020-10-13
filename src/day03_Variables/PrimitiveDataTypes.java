@@ -19,7 +19,7 @@ public class PrimitiveDataTypes {
         System.out.println(score);
         System.out.println("score");
 
-        //long number1 = 9999999999;   //int is preferred, compiler takes it as an int,
+        //long number0 = 9999999999;   //int is preferred, compiler takes it as an int,
                                        // and the number 9999999999 is out of int' range
         long number1 = 9999999999L;    //long number1 = 9999999999l; uppercase(L) or lowercase(l) both is fine
 

@@ -18,7 +18,7 @@ public class BooleanVariables {
         int num1 = 100;
         int num2 = 200;
 
-        boolean result = num1 > num2;
+        boolean result = num1 > num2;   // false
         System.out.print("is first number greater than second number? : ");
         System.out.println(result);
 

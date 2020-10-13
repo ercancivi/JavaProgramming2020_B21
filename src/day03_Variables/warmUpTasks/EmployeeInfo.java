@@ -1,4 +1,4 @@
-package day03_Variables;
+package day03_Variables.warmUpTasks;
 
 public class EmployeeInfo {
 

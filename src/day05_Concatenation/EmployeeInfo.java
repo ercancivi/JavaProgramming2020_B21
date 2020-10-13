@@ -40,15 +40,15 @@ public class EmployeeInfo {
         boolean isMarried = false;
         double salary = 120000.50;
 
-        System.out.print("Employee full name is: ");
+        System.out.print("Employee' full name is: ");
         System.out.println(fullName);
 
         System.out.print(fullName);
-        System.out.print(" gender is: ");
+        System.out.print("' gender is: ");
         System.out.println(gender);
 
         System.out.print(fullName);
-        System.out.print(" age is: ");
+        System.out.print("' age is: ");
         System.out.print(age);
         System.out.println(" years old");
 
@@ -57,11 +57,11 @@ public class EmployeeInfo {
         System.out.println(companyName);
 
         System.out.print(fullName);
-        System.out.print(" Job Title is: ");
+        System.out.print("' Job Title is: ");
         System.out.println(jobTitle);
 
         System.out.print(fullName);
-        System.out.print(" salary is: $ ");
+        System.out.print("' salary is: $ ");
         System.out.println(salary);
 
         System.out.print(fullName);
@@ -74,25 +74,26 @@ public class EmployeeInfo {
 
         System.out.println("====================================");
 
-        System.out.println("Employee full name is: " + firstName + ' ' + lastName);
-        System.out.println(firstName + " " + lastName + " gender is: " + gender);
-        System.out.println(firstName + " " + lastName + " age is: " + age + " years old");
+        System.out.println("Employee' full name is: " + firstName + ' ' + lastName);
+        System.out.println(firstName + " " + lastName + "' gender is: " + gender);
+        System.out.println(firstName + " " + lastName + "' age is: " + age + " years old");
         System.out.println(firstName + " " + lastName + " works at: " + companyName);
-        System.out.println(firstName + " " + lastName + " Job Title is: " + jobTitle);
-        System.out.println(firstName + " " + lastName + " salary is: $ " + salary);
+        System.out.println(firstName + " " + lastName + "' Job Title is: " + jobTitle);
+        System.out.println(firstName + " " + lastName + "' salary is: $ " + salary);
         System.out.println(firstName + " " + lastName + " is full time employee: " + isFullTime);
         System.out.println(firstName + " " + lastName + " is married: " + isMarried);
 
         System.out.println("====================================");
 
-        System.out.println("Employee full name is: " + fullName);
-        System.out.println(fullName + " gender is: " + gender);
-        System.out.println(fullName + " age is: " + age + " years old");
+        System.out.println("Employee' full name is: " + fullName);
+        System.out.println(fullName + "' gender is: " + gender);
+        System.out.println(fullName + "' age is: " + age + " years old");
         System.out.println(fullName + " works at: " + companyName);
-        System.out.println(fullName + " Job Title is: " + jobTitle);
-        System.out.println(fullName + " salary is: $ " + salary);
+        System.out.println(fullName + "' Job Title is: " + jobTitle);
+        System.out.println(fullName + "' salary is: $ " + salary);
         System.out.println(fullName + " is full time employee: " + isFullTime);
         System.out.println(fullName + " is married: " + isMarried);
+
 
 
     }
