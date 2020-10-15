@@ -25,7 +25,7 @@ public class ShortHand {
         // +=:
         int A = 200;
         //  A = A + 100;
-        A += 100;  // the adition will be assigned to the variable
+        A += 100;  // the addition will be assigned to the variable
 
         System.out.println(A);
 

@@ -1,5 +1,7 @@
 package day11_MultiBranchIf.tasksSolutionByMe;
 
+import java.util.Scanner;
+
 public class Tasks {
 
     public static void main(String[] args) {
@@ -25,6 +27,7 @@ public class Tasks {
             second solution : do NOT use any if statement
 
          */
+
     }
 
 }

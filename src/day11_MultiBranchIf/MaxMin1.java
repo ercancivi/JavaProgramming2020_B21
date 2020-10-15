@@ -24,13 +24,13 @@ public class MaxMin1 {
         }
         System.out.println("Max number in If: "+max1);
 
-        int max2 =  ( a>b ) ? a : b;
+        int max2 =  (a > b) ? a : b;
         System.out.println("Max number in Ternary: "+max2);
 
         System.out.println("===========================================");
 
         int min1 = 0;
-        if( a < b ){
+        if(a < b){
             min1 = a;
         }else{
             min1 = b;

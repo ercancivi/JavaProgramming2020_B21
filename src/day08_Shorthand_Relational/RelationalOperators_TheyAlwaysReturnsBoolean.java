@@ -58,7 +58,7 @@ public class RelationalOperators_TheyAlwaysReturnsBoolean {
         boolean b6 = "Muhtar" != "Good Guy"; //true
         System.out.println("b6 = " + b6);
 
-//        boolean b7 = "Muhtar" == "Muhtar";
+//        boolean b7 = "Muhtar" == "Muhtar"; //true
 //        System.out.println("b7 = " + b7);
 
         int x = 100;
