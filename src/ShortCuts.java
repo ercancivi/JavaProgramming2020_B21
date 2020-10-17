@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class ShortCuts {
 
     public static void main(String[] args) {
