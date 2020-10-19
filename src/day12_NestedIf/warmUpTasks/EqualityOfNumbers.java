@@ -25,7 +25,7 @@ public class EqualityOfNumbers {
 
         String result = "";
 
-        if(n1 == n2 && n2 ==n3) { // becomes if not all of them are equal
+        if(n1 == n2 && n2 ==n3) { // it becomes false if not all of them are equal
             result = "all equal";
         }else if(n1 == n2) { // if not all off them are equal but n1 & n2 are equal
             result = "n1&n2 are equal";
