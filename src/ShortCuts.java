@@ -15,7 +15,6 @@ public class ShortCuts {
             Scanner from             ===> java.util package ===> import java.util.Scanner
          */
 
-
     }
 
 }
