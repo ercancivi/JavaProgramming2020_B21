@@ -16,6 +16,14 @@ public class PrintFollowingShape {
                 * * * * * *
          */
 
+        for(int i = 1; i <= 8; i++) {
+            System.out.println();
+            System.out.print("\t");
+            for(int j = 1; j <= 6; j++) {
+                System.out.print("* ");
+            }
+        }
+
 
     }
 

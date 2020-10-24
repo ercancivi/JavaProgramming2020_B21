@@ -14,7 +14,7 @@ public class SumOFNumbers {
 
         if(num >= 1){
 
-            for(int i = 1 ; i <= num; i++ ){ // used for calculting the sum and add them into result
+            for(int i = 1 ; i <= num; i++ ){ // used for calculating the sum and add them into result
                 result += i;
             }
 

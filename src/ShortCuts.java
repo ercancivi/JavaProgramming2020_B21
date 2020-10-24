@@ -10,9 +10,11 @@ public class ShortCuts {
             Main                    ===> main + enter/tab   or psvm + enter/tab
             System.err.println();   ===> serr + enter/tab
 
+            \r                      ===> replace
+
 
             String from             ===> java.lang package ===> import java.lang.String
-            Scanner from             ===> java.util package ===> import java.util.Scanner
+            Scanner from            ===> java.util package ===> import java.util.Scanner
          */
 
     }

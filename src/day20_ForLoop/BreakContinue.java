@@ -15,7 +15,7 @@ public class BreakContinue {
 
         for(int i=1; i <= 10; i-- ){ // i: 1, 0
             if( i < 1 ){
-                break; // exits the loop immedietly
+                break; // exits the loop immediately
             }
             System.out.println("Hello Batch 21");
         }
@@ -36,7 +36,7 @@ public class BreakContinue {
 
             if(answer.equalsIgnoreCase("no")){
                 System.out.println("Thank you for using our calculator");
-                break;
+                break; // complete this code to calculator (I did it under Calculator_With_Infinite_ForLoop className)
             }
 
         }

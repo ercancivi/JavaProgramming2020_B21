@@ -18,6 +18,21 @@ public class PrintFollowingShape2 {
                     * * * * * *
             Hint: in the loop body , only place the statements that you need to repeat
          */
+        for(int i = 1; i <= 10; i++) {
+
+            System.out.println();
+            System.out.print("\t");
+            if(i == 1 || i == 10) {
+                for (int j = 1; j <= 6; j++) {
+                    System.out.print("* ");
+                }
+            }
+
+            if(i > 1 && i < 10) {
+                System.out.print("*         *");
+            }
+
+        }
 
     }
 
