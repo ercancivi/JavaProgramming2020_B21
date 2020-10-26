@@ -28,6 +28,25 @@ public class InterviewQuestions {
                     1 2 FIN 4 RA FIN 7 8 FIN RA 11 FIN 13 14 FINRA 16 17 FIN ....
          */
 
+        /*  WarmUp Task 1:
+            write a program that asks user to enter 5 numbers and returns the maximum number
+         */
+
+        /*  WarmUp Task 2:
+            write a program that asks user to enter 5 numbers and returns the minimum number
+         */
+
+        /*  WarmUp Task 3:
+            write a program that can divide two numbers without using / & % operators
+            and returns the division and remainder
+			ex:
+				input:  10
+						3
+
+				0utput:
+						3 with a remainder of 1
+         */
+
     }
 
 }
