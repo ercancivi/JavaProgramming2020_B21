@@ -1,4 +1,4 @@
-package Office_Hours.practice_10_21_2020;
+package Office_Hours.practice_10_21_2020_Scanner;
 
 public class ClassNotes {
 
