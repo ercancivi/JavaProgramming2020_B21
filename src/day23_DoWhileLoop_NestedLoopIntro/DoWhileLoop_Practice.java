@@ -1,4 +1,4 @@
-package day23_doWhileLoop_NestedLoopIntro;
+package day23_DoWhileLoop_NestedLoopIntro;
 
 public class DoWhileLoop_Practice {
 

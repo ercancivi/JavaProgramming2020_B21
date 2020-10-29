@@ -1,4 +1,4 @@
-package day23_doWhileLoop_NestedLoopIntro.warmUpTasks;
+package day23_DoWhileLoop_NestedLoopIntro.warmUpTasks;
 
 public class FirstUpperCaseLastLowerCaseWord {
 

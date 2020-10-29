@@ -1,4 +1,4 @@
-package Office_Hours.practice_10_28_2020_String_Loops;
+package Office_Hours.practice_10_28_2020_String_Loops_Review;
 
 public class ClassNotes {
 
