@@ -26,7 +26,7 @@ public class RoomReservation {
             while (!(word.equals("king bed") || word.equals("queen bed") || word.equals("single bed"))) {
                 System.out.println("Invalid Entry, Please Re-Enter");
                 word = scan.nextLine().toLowerCase();
-            } // to make usre user selected either the king bed, or queen bed or single bed
+            } // to make user selected either the king bed, or queen bed or single bed
 
             total += (word.equals("king bed")) ? 120 : (word.equals("queen bed")) ? 100 : 80;
 

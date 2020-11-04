@@ -14,6 +14,33 @@ public class Assignment {
 			output:
 				a4b2c1
          */
+        
+        String str = "ababcaa";
+        
+        String result = "";
+        for (int j = 0; j < str.length(); j++) {
+            int frequency = 0;
+            char ch = str.charAt(j);
+
+            for (int i = 0; i < str.length(); i++) {
+
+                char eachChar = str.charAt(i);
+
+                if (eachChar == ch) {
+                    frequency++;
+                }
+
+            }
+            if (!result.contains("" + ch)) {
+                result += "" + ch + frequency;
+            }
+
+        }
+
+        System.out.println("result = " + result);
+        
+
+
 
 
 

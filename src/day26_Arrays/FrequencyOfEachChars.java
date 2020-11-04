@@ -37,7 +37,7 @@ public class FrequencyOfEachChars {
                 }
             }
 
-            result +=  ""+ch + count;
+            result +=  ""+ ch + count;
 
         }
 
