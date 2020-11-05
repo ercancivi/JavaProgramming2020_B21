@@ -1,4 +1,4 @@
-package day26_Arrays;
+package day26_Arrays.warmUpTask;
 
 public class WarmUpTasks {
 
