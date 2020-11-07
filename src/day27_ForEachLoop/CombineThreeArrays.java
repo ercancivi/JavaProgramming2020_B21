@@ -9,7 +9,7 @@ public class CombineThreeArrays {
         String[] group1 = {"Sara", "Jesicca","Parker", "Dragisa", "Sladjan"};
         String[] group2 = {"James", "Bonda", "Indiana", "Jones","Max", "Payne"};
         String[] group3 = {"Abdul", "Sacha", "Amin", "Salih", "Jessica"};
-        String[] group4 = {"Justyna", "Adil","Ercan","Irina","Med", "Olesea","Vlad","Asuman","Guvenche"};
+        String[] group4 = {"Justyna", "Adil","Ercan","Irina","Med", "Olesea","Vlad","Asuman","Guvanch"};
 
 
         String[] groups = new String[group1.length + group2.length+ group3.length +group4.length];

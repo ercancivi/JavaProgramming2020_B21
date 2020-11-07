@@ -21,6 +21,9 @@ public class Self_Practice {
             i++;
         }
 
+
+
+
     }
 
 
