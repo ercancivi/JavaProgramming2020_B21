@@ -1,4 +1,4 @@
-package Office_Hours.practice_11_04_2020_String_Loops_Review2;
+package office_Hours.practice_11_04_2020_String_Loops_Review2;
 
 public class SliceNumbers {
 

@@ -1,4 +1,4 @@
-package Office_Hours.practice_10_21_2020_Scanner_Review;
+package office_Hours.practice_10_21_2020_Scanner_Review;
 
 import java.util.Scanner;
 
