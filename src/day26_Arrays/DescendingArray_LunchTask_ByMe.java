@@ -19,7 +19,7 @@ public class DescendingArray_LunchTask_ByMe {
         String descendingArr = "";
         System.out.println("arr before sort = " + Arrays.toString(arr));
 
-        Arrays.toString(arr);
+//        Arrays.toString(arr);
         Arrays.sort(arr);
 
         System.out.println("arr after sort = " + Arrays.toString(arr));
