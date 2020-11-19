@@ -211,8 +211,59 @@ public class Self_Practice {
 //        for(int i=0; i <=x.length(); i+=2) {
 //            System.out.println(x.charAt(i));
 //        }
-        boolean[] bool = {true, false, true};
-        System.out.println("bool = " + Arrays.toString(bool));
+
+
+//        boolean[] bool = {true, false, true};
+//        System.out.println("bool = " + Arrays.toString(bool));
+
+
+//            Scanner input = new Scanner(System.in);
+//            float[] score = new float[7];
+//            //WRITE YOUR CODE HERE
+//
+//
+//            float sum = 0;
+//            float total = 0;
+//
+//            for(int i = 0; i < score.length; i++) {
+//
+//                System.out.println("Enter score for judge " + (i+1) + ":");
+//                score[i] = input.nextFloat();
+//
+//                sum += score[i];
+//            }
+//
+//            float max = score[0];
+//            float min = score[0];
+//
+//            for(int i = 0; i < score.length; i++) {
+//                if(max < score[i]) {
+//                    max = score[i];
+//                }
+//
+//                if(min > score[i]) {
+//                    min = score[i];
+//                }
+//
+//            }
+//
+//            sum -= (min + max);
+//
+//            System.out.println("Enter difficulty:");
+//            float difficulty = input.nextFloat();
+//
+//            total = sum * difficulty * 0.6f;
+//
+//            // FINAL OUTPUT
+//            System.out.printf("Total: %.2f", total);
+
+
+
+
+
+
+
+
 
     }
 
