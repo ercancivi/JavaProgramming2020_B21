@@ -127,6 +127,26 @@ public class ArraysUtility {
 
 
     /*
+    Combines two arrays of char and return the new array
+     */
+    public static char[] combineTwoArrays(char[] arr1, char[] arr2){
+        char[] arr3 = new char[arr1.length+arr2.length];
+
+        int i = 0;
+
+        for(char each : arr1){
+            arr3[i++] = each;
+        }
+
+        for(char each : arr2){
+            arr3[i++]  = each;
+        }
+
+        return arr3;
+    }
+
+
+    /*
      sorts the array of integers in descending order, and returns it as an array
      */
     public static int[] sort(int[] arr) { //{2,1,3}
@@ -195,4 +215,73 @@ public class ArraysUtility {
 
         return str;
     }
+
+
+    /*
+    add an Integer element after the  last index of an integer array
+                                     {1,2,3,4,5}     6
+     */
+    public static int[] addElement(int[] array, int element){
+        int[] result = new int[array.length + 1];
+
+        for(int i = 0; i <= array.length-1; i++ ){
+            result[i]  = array[i];
+        }
+
+        result[result.length-1] = element;
+
+        return result;
+    }
+
+
+    /*
+    add a double element after the last index of a double array
+     */
+    public static double[] addElement(double[] array, double element){
+        double[] result = new double[array.length + 1];
+
+        for(int i = 0; i <= array.length-1; i++ ){
+            result[i]  = array[i];
+        }
+
+        result[result.length-1] = element;
+
+        return result;
+    }
+
+
+    /*
+    add a char element after the last index of a char array
+     */
+    public static char[] addElement(char[] array, char element){
+        char[] result = new char[array.length + 1];
+
+        for(int i = 0; i <= array.length-1; i++ ){
+            result[i]  = array[i];
+        }
+
+        result[result.length-1] = element;
+
+        return result;
+    }
+
+
+    /*
+    add a String element after the last index of a String array
+     */
+    public static String[] addElement(String[] array, String element){
+        String[] result = new String[array.length + 1];
+
+        for(int i = 0; i <= array.length-1; i++ ){
+            result[i]  = array[i];
+        }
+
+        result[result.length-1] = element;
+
+        return result;
+    }
+
+
+
+
 }

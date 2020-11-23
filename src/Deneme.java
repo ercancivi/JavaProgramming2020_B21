@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Deneme {
@@ -35,23 +36,67 @@ public class Deneme {
 
 
 
-        String[] arr = {"apple", "banana","kiwi", "grape","milk","soda"};
-        for(int i = 0; i < arr.length; i++) {
-            if(i <= arr.length-3) {
-                for (int j = i; j <= i + 2; j++) {
+//        String[] arr = {"apple", "banana","kiwi", "grape","milk","soda"};
+//        for(int i = 0; i < arr.length; i++) {
+//            if(i <= arr.length-3) {
+//                for (int j = i; j <= i + 2; j++) {
+//
+//                    if(j < i + 2) {
+//                        System.out.print(arr[j] + " , ");
+//                    }else {
+//                        System.out.print(arr[j]);
+//                    }
+//                }
+//            }
+//            System.out.println();
+//        }
 
-                    if(j < i + 2) {
-                        System.out.print(arr[j] + " , ");
-                    }else {
-                        System.out.print(arr[j]);
-                    }
+
+
+
+//        int[] r = {9,8,7,6,5,4};
+//
+//        int n = 3;
+//        add_to_r(r,n);
+//
+//        add_to_r(new int{1,5,77,8}  ,2);
+
+        int[] nums = {2, 5, 5, 6, 3, 6, 9, 34, 3};
+
+
+        for(int eachOuter : nums) {
+            int count = 0;
+            for(int eachInner : nums) {
+                if(eachOuter == eachInner) {
+                    count++;
                 }
             }
-            System.out.println();
+
+            if(count == 1) {
+                System.out.println(eachOuter);
+            }
         }
 
 
 
+
+
     }
+
+    public static void add_to_r(int[] r,int n) {
+        int[] new_r = new int[r.length + 1];
+
+        int i = 0;
+
+        for(int j = 0; j < r.length; j++) {
+            new_r[i++] = r[j];
+        }
+
+        new_r[i] = n;
+
+        System.out.println(Arrays.toString(new_r));
+    }
+
+    
 
 }
