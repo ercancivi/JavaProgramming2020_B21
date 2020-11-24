@@ -61,21 +61,37 @@ public class Deneme {
 //
 //        add_to_r(new int{1,5,77,8}  ,2);
 
-        int[] nums = {2, 5, 5, 6, 3, 6, 9, 34, 3};
+        int[] num1 = new int[3];
+        int[] num2 = {1,2,3,4,5};
 
+        num1 = num2;
 
-        for(int eachOuter : nums) {
-            int count = 0;
-            for(int eachInner : nums) {
-                if(eachOuter == eachInner) {
-                    count++;
-                }
-            }
-
-            if(count == 1) {
-                System.out.println(eachOuter);
-            }
+        for(int i=0;i<num1.length;i++){
+            System.out.println(num1[i]);
         }
+
+
+
+
+
+
+
+
+//        int[] nums = {2, 5, 5, 6, 3, 6, 9, 34, 3};
+
+
+//        for(int eachOuter : nums) {
+//            int count = 0;
+//            for(int eachInner : nums) {
+//                if(eachOuter == eachInner) {
+//                    count++;
+//                }
+//            }
+//
+//            if(count == 1) {
+//                System.out.println(eachOuter);
+//            }
+//        }
 
 
 
@@ -83,19 +99,19 @@ public class Deneme {
 
     }
 
-    public static void add_to_r(int[] r,int n) {
-        int[] new_r = new int[r.length + 1];
-
-        int i = 0;
-
-        for(int j = 0; j < r.length; j++) {
-            new_r[i++] = r[j];
-        }
-
-        new_r[i] = n;
-
-        System.out.println(Arrays.toString(new_r));
-    }
+//    public static void add_to_r(int[] r,int n) {
+//        int[] new_r = new int[r.length + 1];
+//
+//        int i = 0;
+//
+//        for(int j = 0; j < r.length; j++) {
+//            new_r[i++] = r[j];
+//        }
+//
+//        new_r[i] = n;
+//
+//        System.out.println(Arrays.toString(new_r));
+//    }
 
     
 
