@@ -61,14 +61,16 @@ public class Deneme {
 //
 //        add_to_r(new int{1,5,77,8}  ,2);
 
-        int[] num1 = new int[3];
-        int[] num2 = {1,2,3,4,5};
 
-        num1 = num2;
 
-        for(int i=0;i<num1.length;i++){
-            System.out.println(num1[i]);
-        }
+//        int[] num1 = new int[3];
+//        int[] num2 = {1,2,3,4,5};
+//
+//        num1 = num2;
+//
+//        for(int i=0;i<num1.length;i++){
+//            System.out.println(num1[i]);
+//        }
 
 
 

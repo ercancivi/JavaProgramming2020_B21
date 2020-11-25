@@ -1,3 +1,10 @@
+import org.omg.PortableServer.SERVANT_RETENTION_POLICY_ID;
+import org.omg.PortableServer.ServantRetentionPolicy;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -256,6 +263,263 @@ public class Self_Practice {
 //
 //            // FINAL OUTPUT
 //            System.out.printf("Total: %.2f", total);
+
+
+//        int[] addElement = {1,3,5,7,9};
+//        int n = 11;
+//
+//        int[] newArray = new int[addElement.length + 1];
+//
+//        for(int i=0; i<addElement.length; i++) {
+//            newArray[i] = addElement[i];
+//        }
+//
+//        newArray[newArray.length-1] = n;
+//
+//        System.out.println(Arrays.toString(newArray));
+//
+//        int[] newArray2 = new int[newArray.length+1];
+//        int m = 13;
+//
+//        int j =0;
+//
+//        for (int each: newArray) {
+//            newArray2[j++] = each;
+//            System.out.print(each+" ");
+//        }
+//
+//        newArray2[j] = m;
+//
+//        System.out.println();
+//        System.out.println(Arrays.toString(newArray2));
+
+
+
+//        import java.time.
+//        LocalDate:11/24/2020
+//
+//        LocalTime:5:22:00 PM
+//
+//        LocalDateTime: year month day hour minute second
+
+
+
+//        LocalDate yesterday = LocalDate.of(2020,11,23);
+//        System.out.println("yesterday = " + yesterday);
+//
+//
+//        LocalDate date = LocalDate.of(2020,2,29);
+//        System.out.println("date = " + date);
+//
+//        System.out.println("date.isLeapYear() = " + date.isLeapYear());
+//
+//        LocalDate today = LocalDate.now();
+//
+//        System.out.println("today = " + today);
+//
+
+
+
+
+//        String[] names = {"Ercan", "Aylin", "Gizem", "Emir"};
+//        LocalDate[] DofB = {LocalDate.of(1974,3,3),
+//                            LocalDate.of(1969,5,10),
+//                            LocalDate.of(1991,9,30),
+//                            LocalDate.of(2007,7,19)};
+//
+//        for(int i=0; i < names.length; i++) {
+//            System.out.println(names[i] + ": " + DofB[i]);
+//        }
+//
+//        for(LocalDate each: DofB) {
+//            if(LocalDate.of(1974,3,3).equals(each)) {
+//                System.out.println("HAPPY BIRTHDAY TO YOU!!!");
+//
+//            }
+//
+//        }
+//
+//        if(DofB[0].isBefore(DofB[1])) {
+//            System.out.println(names[0] + " is older");
+//        }else if(DofB[1].isBefore(DofB[0])) {
+//            System.out.println(names[1] + " is older");
+//        }else {
+//            System.out.println("Same age");
+//        }
+//
+//        System.out.println("DofB[0].plusYears(30) = " + DofB[0].plusYears(30));
+//
+//
+//        int age =0;
+//        int agePlus15Years = 0;
+//        int ageMinus10years = 0;
+//
+//        for(int i =0; i< names.length; i++) {
+////            age = LocalDate.now().getYear()-LocalDate.of(1974,3,3).getYear();
+//            age = LocalDate.now().getYear() - DofB[i].getYear();
+//            System.out.println(names[i] +" is "+ age + " years old");
+//
+//            agePlus15Years = LocalDate.now().plusYears(15).getYear() - DofB[i].getYear();
+//            System.out.println(names[i] +" is "+ agePlus15Years + " years old");
+//
+//        }
+//
+//        System.out.println("=============");
+//
+//        DateTimeFormatter birthDayFormat = DateTimeFormatter.ofPattern("MMMM/dd/yyyy, EEEE");
+//
+//        for(int i =0; i< names.length; i++) {
+//            age = LocalDate.now().minusYears(DofB[i].getYear()).getYear();
+//
+//            System.out.println(names[i] +" is "+ age + " years old");
+//
+//            ageMinus10years= LocalDate.now().minusYears(10).getYear() - DofB[i].getYear();
+//            System.out.println(names[i] +" is "+ ageMinus10years + " years old");
+//
+//            if(age >= 21) {
+//                System.out.println(names[i] + "is eligible to vote");
+//            }else {
+//                System.out.println("You were born on : " + DofB[i].format(birthDayFormat));
+//                LocalDate eligible = LocalDate.of(LocalDate.now().plusYears(21- age).getYear(),DofB[i].getMonthValue(),DofB[i].getDayOfMonth());
+//                System.out.println("You will be eligible to vote on : " + eligible);
+//                System.out.println((eligible.getYear() - LocalDate.now().getYear()) + " years later from now");
+//            }
+//
+//        }
+//
+//        System.out.println("====================================");
+//
+//        LocalDate dOfB = LocalDate.of(2007,7,9);
+//        System.out.println("dOfB.plusDays(10) = " + dOfB.plusDays(10));
+//
+//        System.out.println("dOfB.plusYears(20) = " + dOfB.plusYears(20));
+//
+//
+//        LocalTime time = LocalTime.of(23,45,12);
+//        System.out.println("time = " + time);
+//
+//        LocalTime now = LocalTime.now();
+//        System.out.println("now = " + now);
+//
+//
+//        LocalDateTime dateTime = LocalDateTime.of(2020,11,24,6,11,20);
+//        System.out.println("dateTime = " + dateTime);
+//
+//
+//        DateTimeFormatter dt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+//
+//        LocalDate today = LocalDate.now();
+//        System.out.println("today = " + today);
+//        System.out.println("today.format(dt) = " + today.format(dt));
+//
+//        DateTimeFormatter dt1 = DateTimeFormatter.ofPattern("dd/MMM/yyyy");
+//        System.out.println("today.format(dt1) = " + today.format(dt1));
+//
+//        DateTimeFormatter dt2 = DateTimeFormatter.ofPattern("dd/MMM/yy");
+//        System.out.println("today.format(dt2) = " + today.format(dt2));
+//
+//        DateTimeFormatter dt3 = DateTimeFormatter.ofPattern("E dd/MMM/yyyy");
+//        System.out.println("today.format(dt3) = " + today.format(dt3));
+//
+//        DateTimeFormatter dt4 = DateTimeFormatter.ofPattern("EEEE dd/MMMM/yyyy");
+//        System.out.println("today.format(dt4) = " + today.format(dt4));
+//
+//        DateTimeFormatter dt10 = DateTimeFormatter.ofPattern("dd/MM/yyyy E");
+//        System.out.println("today.format(dt10) = " + today.format(dt10));
+//
+//        DateTimeFormatter timeFormat = DateTimeFormatter.ofPattern("hh:mm:ss a");
+//        LocalTime currentTime = LocalTime.now();
+//        System.out.println("currentTime = " + currentTime);
+//        System.out.println("currentTime.format() = " + currentTime.format(timeFormat));
+//
+//
+//        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("EEEE, hh:mm a, MMM/dd/yyyy");
+//
+//        LocalDateTime dtfVer = LocalDateTime.now();
+//
+//        System.out.println("dtfVer.format(dtf) = " + dtfVer.format(dtf).replace("PM","pm"));
+
+
+//        String s = "02:55:00PM";
+//
+//        String[] sArr = s.split(":");
+//
+//        int hour = Integer.parseInt(sArr[0]);
+//        int minute = Integer.parseInt(sArr[1]);
+//        int second = Integer.parseInt(sArr[2].substring(0,2));
+//        String amPm = sArr[2].substring(2);
+//
+//        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("HH:mm:ss");
+//
+//        LocalTime time = LocalTime.of(hour,minute,second);
+//
+//        if(amPm.toLowerCase().equals("pm")) {
+//
+//            if(hour >=1 && hour < 12) {
+//                hour += 12;
+//            }
+//            time = LocalTime.of(hour,minute,second);
+//
+//        }else {
+//            if(hour == 12) {
+//                hour = 0;
+//            }
+//            time = LocalTime.of(hour,minute,second);
+//        }
+//
+//        System.out.println(time.format(dtf));
+
+        int[] nums = {2, 5, 5, 6, 3, 6, 9, 34, 3};
+
+        int counter = 0;
+
+        for(int eachElement : nums) {
+
+            for(int eachNumber : nums) {
+
+                if(eachElement == eachNumber) {
+                    counter++;
+                }
+            }
+
+            if(counter ==1) {
+                System.out.println(eachElement);
+            }
+
+        }
+        String one = "12345";
+        String two ="abcde";
+        String[] oneArr = one.split("");
+        String[] twoArr = two.split("");
+        String merged = "";
+
+        for(int i=0; i<oneArr.length; i++) {
+            merged +=oneArr[i]+twoArr[i];
+        }
+        System.out.println("merged = " + merged);
+
+        char[] x = two.toCharArray();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
