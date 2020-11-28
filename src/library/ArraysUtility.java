@@ -1,5 +1,6 @@
 package library;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class ArraysUtility {
@@ -280,6 +281,259 @@ public class ArraysUtility {
 
         return result;
     }
+
+
+    /*
+        reverses an array of int and returns it
+     */
+    public static int[] reverse(int[] arr){
+        int[] reverse = new int[arr.length];
+
+        for(int i = arr.length-1, j = 0 ;  i >= 0  ;  i--, j++  ){  //i: index numbers of arr in reversed order
+            reverse[j] = arr[i] ;  // j: index numbers of reverse array, in natual morder
+        }
+
+        return reverse;
+    }
+
+
+    /*
+        reverses an array of double and returns it
+     */
+    public static double[] reverse(double[] arr){
+        double[] reverse = new double[arr.length];
+
+        for(int i = arr.length-1, j = 0 ;  i >= 0  ;  i--, j++  ){  //i: index numbers of arr in reversed order
+            reverse[j] = arr[i] ;  // j: index numbers of reverse array, in natual morder
+        }
+
+        return reverse;
+    }
+
+
+    /*
+        reverses an array of char and returns it
+     */
+    public static char[] reverse(char[] arr){
+        char[] reverse = new char[arr.length];
+
+        for(int i = arr.length-1, j = 0 ;  i >= 0  ;  i--, j++  ){  //i: index numbers of arr in reversed order
+            reverse[j] = arr[i] ;  // j: index numbers of reverse array, in natual morder
+        }
+
+        return reverse;
+    }
+
+
+    /*
+        reverses an array of String and returns it
+     */
+    public static String[] reverse(String[] arr){
+        String[] reverse = new String[arr.length];
+
+        for(int i = arr.length-1, j = 0 ;  i >= 0  ;  i--, j++  ){  //i: index numbers of arr in reversed order
+            reverse[j] = arr[i] ;  // j: index numbers of reverse array, in natual morder
+        }
+
+        return reverse;
+    }
+
+
+    /*
+        removes the duplicates from an array of int and returns it
+     */
+    public static int[]  removeDuplicates(int[] arr){
+        ArrayList<Integer> list = new ArrayList<>(); //[1, 2, 3,4 ]
+        for(int each : arr) {
+            if (!list.contains(each)) {
+                list.add(each);
+            }
+        }
+
+        int[] nonDup = new int[list.size()]; // [1,2,3,4]
+
+        for(int i = 0; i <= nonDup.length-1; i++) {
+            nonDup[i] = list.get(i);
+        }
+
+        return nonDup;
+    }
+
+
+    /*
+        removes the duplicates from an array of double and returns it
+     */
+    public static double[]  removeDuplicates(double[] arr){
+        ArrayList<Double> list = new ArrayList<>(); //[1, 2, 3,4 ]
+        for(double each : arr) {
+            if (!list.contains(each)) {
+                list.add(each);
+            }
+        }
+
+        double[] nonDup = new double[list.size()]; // [1,2,3,4]
+
+        for(int i = 0; i <= nonDup.length-1; i++) {
+            nonDup[i] = list.get(i);
+        }
+
+        return nonDup;
+    }
+
+
+    /*
+        removes the duplicates from an array of char and returns it
+     */
+    public static char[]  removeDuplicates(char[] arr){
+        ArrayList<Character> list = new ArrayList<>(); //[1, 2, 3,4 ]
+        for(char each : arr) {
+            if (!list.contains(each)) {
+                list.add(each);
+            }
+        }
+
+        char[] nonDup = new char[list.size()]; // [1,2,3,4]
+
+        for(int i = 0; i <= nonDup.length-1; i++) {
+            nonDup[i] = list.get(i);
+        }
+
+        return nonDup;
+    }
+
+
+    /*
+        removes the duplicates from an array of String and returns it
+     */
+    public static String[]  removeDuplicates(String[] arr){
+        ArrayList<String> list = new ArrayList<>(); //[1, 2, 3,4 ]
+        for(String each : arr) {
+            if (!list.contains(each)) {
+                list.add(each);
+            }
+        }
+
+        String[] nonDup = new String[list.size()]; // [1,2,3,4]
+
+        for(int i = 0; i <= nonDup.length-1; i++) {
+            nonDup[i] = list.get(i);
+        }
+
+        return nonDup;
+    }
+
+
+    /*
+        find the unique element from an array of String and returns it
+     */
+    public static String[] uniques(String[] arr ){
+        ArrayList<String> uniqueElementsList = new ArrayList<>();
+
+        for (String element : arr) {
+            int count = 0;
+            for (String each : arr) {
+                if (each.equals(element)) {
+                    count++;
+                }
+            }
+
+            if (count == 1) {
+                uniqueElementsList.add(element);
+            }
+        }
+
+        String[] uniques = new String[uniqueElementsList.size()];
+        for(int i = 0; i <= uniques.length-1; i++){
+            uniques[i]  = uniqueElementsList.get(i); // each element of the array list need to be assigned to each index of the array
+        }
+
+        return uniques;
+    }
+
+
+    /*
+        find the unique element from an array of int and returns it
+     */
+    public static int[] uniques(int[] arr ){
+        ArrayList<Integer> uniqueElementsList = new ArrayList<>();
+
+        for (int element : arr) {
+            int count = 0;
+            for (int each : arr) {
+                if (each == element ) {
+                    count++;
+                }
+            }
+
+            if (count == 1) {
+                uniqueElementsList.add(element);
+            }
+        }
+
+        int[] uniques = new int[uniqueElementsList.size()];
+        for(int i = 0; i <= uniques.length-1; i++){
+            uniques[i]  = uniqueElementsList.get(i); // each element of the array list need to be assigned to each index of the array
+        }
+
+        return uniques;
+    }
+
+
+    /*
+        find the unique element from an array of double and returns it
+     */
+    public static double[] uniques(double[] arr ){
+        ArrayList<Double> uniqueElementsList = new ArrayList<>();
+
+        for (double element : arr) {
+            int count = 0;
+            for (double each : arr) {
+                if (each == element ) {
+                    count++;
+                }
+            }
+
+            if (count == 1) {
+                uniqueElementsList.add(element);
+            }
+        }
+
+        double[] uniques = new double[uniqueElementsList.size()];
+        for(int i = 0; i <= uniques.length-1; i++){
+            uniques[i]  = uniqueElementsList.get(i); // each element of the array list need to be assigned to each index of the array
+        }
+
+        return uniques;
+    }
+
+
+    /*
+        find the unique element from an array of char and returns it
+     */
+    public static char[] uniques(char[] arr ){
+        ArrayList<Character> uniqueElementsList = new ArrayList<>();
+
+        for (char element : arr) {
+            int count = 0;
+            for (char each : arr) {
+                if (each == element ) {
+                    count++;
+                }
+            }
+
+            if (count == 1) {
+                uniqueElementsList.add(element);
+            }
+        }
+
+        char[] uniques = new char[uniqueElementsList.size()];
+        for(int i = 0; i <= uniques.length-1; i++){
+            uniques[i]  = uniqueElementsList.get(i); // each element of the array list need to be assigned to each index of the array
+        }
+
+        return uniques;
+    }
+
 
 
 

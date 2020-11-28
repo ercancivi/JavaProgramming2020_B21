@@ -469,66 +469,96 @@ public class Self_Practice {
 //
 //        System.out.println(time.format(dtf));
 
-        int[] nums = {2, 5, 5, 6, 3, 6, 9, 34, 3};
 
-        int counter = 0;
 
-        for(int eachElement : nums) {
 
-            for(int eachNumber : nums) {
+//        int[] nums = {2, 5, 5, 6, 3, 6, 9, 34, 3};
+//
+//        int counter = 0;
+//
+//        for(int eachElement : nums) {
+//
+//            for(int eachNumber : nums) {
+//
+//                if(eachElement == eachNumber) {
+//                    counter++;
+//                }
+//            }
+//
+//            if(counter ==1) {
+//                System.out.println(eachElement);
+//            }
+//
+//        }
+//        String one = "12345";
+//        String two ="abcde";
+//        String[] oneArr = one.split("");
+//        String[] twoArr = two.split("");
+//        String merged = "";
+//
+//        for(int i=0; i<oneArr.length; i++) {
+//            merged +=oneArr[i]+twoArr[i];
+//        }
+//        System.out.println("merged = " + merged);
+//
+//        char[] x = two.toCharArray();
 
-                if(eachElement == eachNumber) {
-                    counter++;
-                }
+
+        System.out.println(clean("he said bla bla bla", "bla"));
+        System.out.println(clean("one two three","two"));
+        System.out.println(limit("abcd",2));
+
+        System.out.println(at3("longword","foo"));
+
+
+    }
+
+    public static String clean (String text ,String badWord) {
+
+        String[] textArray = text.split(" ");
+
+        String result = "";
+
+        for(String eachText : textArray) {
+
+            if(eachText.equals(badWord)) {
+
+                continue;
+
             }
 
-            if(counter ==1) {
-                System.out.println(eachElement);
-            }
+            result += eachText + " ";
 
         }
-        String one = "12345";
-        String two ="abcde";
-        String[] oneArr = one.split("");
-        String[] twoArr = two.split("");
-        String merged = "";
 
-        for(int i=0; i<oneArr.length; i++) {
-            merged +=oneArr[i]+twoArr[i];
+        result = result.trim();
+
+        return result;
+
+    }
+
+
+
+    public static String limit(String text, int maxLength)
+    {
+        char[] textChar = text.toCharArray();
+        String result = "";
+
+        for(int i = 0; i <= maxLength; i++) {
+
+            result += textChar[i];
+
         }
-        System.out.println("merged = " + merged);
 
-        char[] x = two.toCharArray();
+        return result;
 
-
-
+    }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    public static String at3(String target,String word)
+    {
+        String result = target.substring(0,3)+word+target.substring(3);
+        return result;
     }
 
 
