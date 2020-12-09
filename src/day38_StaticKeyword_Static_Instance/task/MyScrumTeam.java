@@ -124,13 +124,17 @@ public class MyScrumTeam {
         scrumList.addAll(Arrays.asList(scrums) );
 
         for(ScrumTeam  eachScrum  : scrumList){
+            System.out.println("Tester: ");
             for(Tester eachTester: eachScrum.testersTeam ){
                 System.out.println(eachTester.name +" : "+eachTester.salary);
             }
 
+            System.out.println("-------------------------------------------------");
+            System.out.println("Developer: ");
             for( Developer eachDeveloper: eachScrum.developersTeam){
                 System.out.println(eachDeveloper.name+" : "+eachDeveloper.salary);
             }
+            System.out.println("-------------------------------------------------");
 
         }
 
