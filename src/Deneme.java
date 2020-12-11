@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -95,8 +96,15 @@ public class Deneme {
 //            }
 //        }
 
+//        System.out.println(combineRs(["f","o","o"],[" b","a","r"]));
 
+        ArrayList<Integer> x = new ArrayList<>();
+        x.add(1);
+        x.add(5);
+        x.add(3);
+        x.add(7);
 
+        System.out.println(twoTimes(x));
 
 
     }
@@ -115,6 +123,45 @@ public class Deneme {
 //        System.out.println(Arrays.toString(new_r));
 //    }
 
-    
+
+//    public static String combineRs(String[] r1,String[] r2)
+//    {
+//        ArrayList<String> list = new ArrayList<>();
+//
+//        for(String each : r1) {
+//            list.add(each);
+//        }
+//
+//        for(String each : r2) {
+//            list.add(each);
+//        }
+//
+//        String str = "";
+//        for(String each : list) {
+//           str += each;
+//        }
+//
+//        return str;
+//
+//    }
+
+
+    public static ArrayList<Integer> twoTimes(ArrayList<Integer> nums) {
+
+        ArrayList<Integer> list = new ArrayList<>();
+
+        for(int each : nums) {
+
+            list.add(each);
+            list.add(each);
+        }
+
+        return list;
+    }
+
+
+
+
+
 
 }
