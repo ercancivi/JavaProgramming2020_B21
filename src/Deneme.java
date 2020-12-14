@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class Deneme {
@@ -98,14 +99,36 @@ public class Deneme {
 
 //        System.out.println(combineRs(["f","o","o"],[" b","a","r"]));
 
-        ArrayList<Integer> x = new ArrayList<>();
-        x.add(1);
-        x.add(5);
-        x.add(3);
-        x.add(7);
+//        ArrayList<Integer> x = new ArrayList<>();
+//        x.add(1);
+//        x.add(5);
+//        x.add(3);
+//        x.add(7);
+//
+//        System.out.println(twoTimes(x));
+//
+//        String[] str = {"1","2","aa","1", "aa"};
+//
+//        String s1 = "12345";
+//        String s2 = "abcdefg";
+//
+//        System.out.println(mergeStrings(s1,s2));
 
-        System.out.println(twoTimes(x));
 
+        ArrayList<String>  arr = new ArrayList<String>();
+        arr.add("2");
+        arr.add("6");
+        arr.add("foo bar");
+        arr.add("abc");
+
+
+        System.out.println(search(arr,"foo"));
+
+        Carpet c  = new Carpet();
+        System.out.println(c.totalPrice);
+
+//        System.out.println(appearsTwice("laptop", "I would like to buy a new laptop, because my laptop is too old."));
+//        appearsTwice("java", "java is fun!");
 
     }
 
@@ -160,8 +183,113 @@ public class Deneme {
     }
 
 
+    public static String search(ArrayList<String> r, String find)
+    {
+        String result = "";
+        for(String element : r) {
+
+            if(element.contains(find)) {
+
+                result = element;
+                if(!result.isEmpty()) {
+                    return element;
+                }
 
 
+            }else {
 
+                result = "search failed";
+
+            }
+
+        }
+        return result;
+    }
+
+    public static boolean isError(String line)
+    {
+        return line.startsWith("error");
+    }
+
+//    public static boolean appearsTwice(String target, String sentence) {
+//        //write your codes here:
+//        int frequency = 0;
+//        for(String word: sentence.split(" ")) {
+//
+//
+//
+//            if(word.contains(target)) {
+//                frequency++;
+//            }
+//
+//        }
+//
+//        if(frequency == 2) {
+//            return true;
+//        }
+//
+//        return false;
+//    }
+
+//    public static boolean appearsTwice(String target, String sentence) {
+//        int count = 0;
+//        while (sentence.contains(target)) {
+//            count++;
+//            sentence.replaceFirst(target, "");
+//
+//        }
+//        if (count == 2) {
+//            return true;
+//        } else {
+//            return false;
+//        }
+//
+//
+//    }
 
 }
+
+class Carpet {
+
+    //do not change -- Start
+    public double width,length,unitPrice,totalPrice;
+    public boolean isPersian;
+    //do not change -- End
+
+    //Add constructors below
+
+    public Carpet() {
+        this.unitPrice = 0;
+        this.width = width;
+        this.length = length;
+        this.totalPrice = 200;
+    }
+
+    public Carpet(double width, double length, double unitPrice, boolean isPersian) {
+        this.width = width;
+        this.length = length;
+        this.unitPrice = unitPrice;
+        this.isPersian = isPersian;
+        totalPrice = totalPrice();
+    }
+
+    public double totalPrice() {
+        totalPrice += (width + length)*unitPrice;
+        return  (isPersian) ? totalPrice += 200 : totalPrice;
+    }
+
+    @Override
+    public String toString() {
+        return "Carpet{" +
+                "width=" + width +
+                ", length=" + length +
+                ", unitPrice=" + unitPrice +
+                ", totalPrice=" + totalPrice() +
+                ", isPersian=" + isPersian +
+                '}';
+    }
+
+
+
+
+    }
