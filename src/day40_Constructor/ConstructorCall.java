@@ -12,7 +12,7 @@ public class ConstructorCall {
         System.out.println("Constructor with int arg");
     }
 
-    public ConstructorCall(String str){ // dfeault, int, string
+    public ConstructorCall(String str){ // default, int, string
         this(10); // default, int
         //   this();  // one constructor can ONLY call one constructor
         System.out.println("Constructor with String arg");
