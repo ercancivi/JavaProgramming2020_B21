@@ -275,9 +275,74 @@ public class ArrayPractices {
 //        System.out.println("sum = " + sum);
 
 
+//        int[] numbers = {85,23,15,1,70,12,45,36,68,150,-3,19,54,-9,5,28};
+//
+//        int max = numbers[0];
+//        int min = numbers[0];
+//        for(int i=0; i<numbers.length; i++) {
+//            max = (numbers[i]>max)?numbers[i] : max;
+//            min = (numbers[i]<min)?numbers[i] : min;
+//        }
+//        System.out.println("min = " + min);
+//        System.out.println("max = " + max);
 
 
+//        String[] months = {"Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"};
+//
+//        Scanner scan = new Scanner(System.in);
+//
+//        System.out.println("enter month's number");
+//        int numberOfMonth = scan.nextInt();
+//
+//        System.out.println(months[numberOfMonth-1]);
 
+
+//        System.out.println("Enter first number");
+//        int num1 = scan.nextInt();
+//
+//        System.out.println("Enter Math Operator");
+//        char operator = scan.next().charAt(0);
+//
+//        if(operator=='/' || operator=='%') {
+//            System.out.println("second number cannot be zero");
+//        }
+//        System.out.println("Enter second number");
+//        int num2 = scan.nextInt();
+//        int result = 0;
+//        switch(operator) {
+//            case '+':
+//                result = num1+num2;
+//                break;
+//            case '-':
+//                result = num1-num2;
+//                break;
+//            case '*':
+//                result = num1*num2;
+//                break;
+//            case '/':
+//                if(num2>0) {
+//                    result = num1 / num2;
+//                }else {
+//                    System.err.println("invalid data");
+//                    System.err.println("second number Cannot be zero");
+//                }
+//                break;
+//            case '%':
+//                if(num2>0) {
+//                    result = num1 % num2;
+//                }else {
+//                    System.err.println("invalid data");
+//                    System.err.println("second number Cannot be zero");
+//                }
+//                break;
+//            default :
+//                System.err.println("invalid data");
+//                break;
+//        }
+//
+//        if((operator=='/' || operator=='%') && (num2>0)){
+//            System.out.println("result = " + result);
+//        }
 
 
 
