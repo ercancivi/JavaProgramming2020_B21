@@ -99,10 +99,10 @@ public class WarmUpTasks {
          */
         String[] friends = {"Ahmed", "Ramiz", "Olesea", "Adil", "Ercan"};
         LocalDate[] dOfB = {LocalDate.of(1983,6,14),
-                            LocalDate.of(1983,03,12),
-                            LocalDate.of(1986,02,07),
-                            LocalDate.of(1999,06,18),
-                            LocalDate.of(1974,03,03)};
+                            LocalDate.of(1983,3,12),
+                            LocalDate.of(1986,2,7),
+                            LocalDate.of(1999,6,18),
+                            LocalDate.of(1974,3,3)};
 
         String nameOfOlder = friends[0];
         LocalDate older = dOfB[0];

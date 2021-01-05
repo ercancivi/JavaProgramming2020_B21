@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ArrayPractices {
@@ -297,52 +298,127 @@ public class ArrayPractices {
 //        System.out.println(months[numberOfMonth-1]);
 
 
-//        System.out.println("Enter first number");
-//        int num1 = scan.nextInt();
+//        Must be fix
+//        while(true) {
+//            System.out.println("Enter first number");
+//            int num1 = scan.nextInt();
 //
-//        System.out.println("Enter Math Operator");
-//        char operator = scan.next().charAt(0);
+//            System.out.println("Enter Math Operator");
+//            String mathOperator = scan.next();
 //
-//        if(operator=='/' || operator=='%') {
-//            System.out.println("second number cannot be zero");
-//        }
-//        System.out.println("Enter second number");
-//        int num2 = scan.nextInt();
-//        int result = 0;
-//        switch(operator) {
-//            case '+':
-//                result = num1+num2;
-//                break;
-//            case '-':
-//                result = num1-num2;
-//                break;
-//            case '*':
-//                result = num1*num2;
-//                break;
-//            case '/':
-//                if(num2>0) {
-//                    result = num1 / num2;
-//                }else {
+//            while(mathOperator.length() > 1) {
+//                System.out.println("Enter Math Operator");
+//                mathOperator = scan.next();
+//            }
+//
+//            char operator = mathOperator.charAt(0);
+//
+//            while(!(operator == '+' || operator == '-' || operator == '*' ||  operator == '/' || operator == '%')) {
+//                System.out.println("Enter Math Operator");
+//                operator = scan.next().charAt(0);
+//            }
+//
+//            if(operator=='/' || operator=='%') {
+//                System.out.println("second number cannot be zero");
+//            }
+//            System.out.println("Enter second number");
+//            int num2 = scan.nextInt();
+//            int result = 0;
+//            switch(operator) {
+//                case '+':
+//                    result = num1+num2;
+//                    break;
+//                case '-':
+//                    result = num1-num2;
+//                    break;
+//                case '*':
+//                    result = num1*num2;
+//                    break;
+//                case '/':
+//                    if(num2>0) {
+//                        result = num1 / num2;
+//                    }else {
+//                        System.err.println("invalid data");
+//                        System.err.println("second number Cannot be zero");
+//                    }
+//                    break;
+//                case '%':
+//                    if(num2>0) {
+//                        result = num1 % num2;
+//                    }else {
+//                        System.err.println("invalid data");
+//                        System.err.println("second number Cannot be zero");
+//                    }
+//                    break;
+//                default :
 //                    System.err.println("invalid data");
-//                    System.err.println("second number Cannot be zero");
-//                }
-//                break;
-//            case '%':
-//                if(num2>0) {
-//                    result = num1 % num2;
-//                }else {
-//                    System.err.println("invalid data");
-//                    System.err.println("second number Cannot be zero");
-//                }
-//                break;
-//            default :
-//                System.err.println("invalid data");
-//                break;
-//        }
+//                    break;
+//            }
 //
-//        if((operator=='/' || operator=='%') && (num2>0)){
-//            System.out.println("result = " + result);
+//            if((operator=='/' || operator=='%') && (num2>0)){
+//                System.out.println("result = " + result);
+//            }
+//
+//
+//            System.out.println("Would you like to continue?");
+//            String answer = scan.next().toLowerCase();
+//
+//            while(!(answer.equals("yes") || answer.equals("no"))) {
+//                System.out.println("invalid data");
+//                System.out.println("Would you like to continue?");
+//                answer = scan.next().toLowerCase();
+//            }
+//
+//            if(answer.equals("no")) {
+//                break;
+//            }
+//
+//
 //        }
+
+
+//        String str = "ababcaa";
+////        String result = "a4b2c1";
+//
+//
+//        String result = "";
+//
+//        for(int j= 0; j<str.length(); j++) {
+//            char ch = str.charAt(j);
+//            int count = 0;
+//
+//            for(int i=0; i<str.length(); i++) {
+//                if(ch == str.charAt(i)) {
+//                    count++;
+//                }
+//            }
+//
+//            if(!result.contains("" + ch)) {
+//                result += "" + ch + count;
+//            }
+//
+//        }
+//        System.out.println("result = " + result);
+
+
+
+//        int[] nums = {6,9,3,1,7,-5,8,4,2,5};
+//
+//        Arrays.sort(nums);
+//        int[] descendingArray = new int[nums.length];
+//
+//        for(int i = nums.length-1, j=0; i>=0; i--,j++) {
+//            System.out.print(nums[i] + " ");
+//            descendingArray[j]= nums[i];
+//        }
+//        System.out.println();
+//        System.out.println(Arrays.toString(descendingArray));
+
+
+
+
+
+
 
 
 

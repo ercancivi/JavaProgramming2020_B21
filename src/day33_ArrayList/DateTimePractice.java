@@ -11,7 +11,8 @@ public class DateTimePractice {
 
         /*  1. use the LocalDate & Time get the date and time in the following format:
                     Tue, 01:00 pm, November/24/2020
-            2. create an array of LocalDate and store the next 10 day's dates, use for each loop to print each Date in the following format:
+            2. create an array of LocalDate and store the next 10 day's dates,
+               use for each loop to print each Date in the following format:
                         MonthName/Day, Name
                         ex:
                             November/25, Wednesday
@@ -46,10 +47,10 @@ public class DateTimePractice {
         LocalDate[] dOfB = {
                 LocalDate.of(1991, 9, 25),
                 LocalDate.of(1990, 11, 23),
-                LocalDate.of(1995, 02, 10),
-                LocalDate.of(2000, 03, 15),
-                LocalDate.of(2005, 04, 20),
-                LocalDate.of(2010, 05, 25)
+                LocalDate.of(1995, 2, 10),
+                LocalDate.of(2000, 3, 15),
+                LocalDate.of(2005, 4, 20),
+                LocalDate.of(2010, 5, 25)
         };
 
         String nameOfOlder = friends[0];

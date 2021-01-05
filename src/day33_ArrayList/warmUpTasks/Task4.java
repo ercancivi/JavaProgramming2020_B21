@@ -12,9 +12,9 @@ public class Task4 {
 
         String[] myFriends = {"Ahmet","Olesea","Ramiz","Adil","Guvanch"};
         LocalDate[] DofB = {LocalDate.of(1983,6,14),
-                            LocalDate.of(1986,02,07),
-                            LocalDate.of(1983,03,12),
-                            LocalDate.of(1999,06,18),
+                            LocalDate.of(1986,2,7),
+                            LocalDate.of(1983,3,12),
+                            LocalDate.of(1999,6,18),
                             LocalDate.of(1979,5,20)};
 
         for(int i = 0; i < myFriends.length; i++) {
