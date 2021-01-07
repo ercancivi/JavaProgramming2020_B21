@@ -51,6 +51,29 @@ public class LocalRestaurants {
         System.out.println("budget = " + budget);
 
 
+        /*Group studying notes
+        Restaurant restaurant21 = new Restaurant("Ahmet");
+
+
+//        Chef chef1 = new Chef("Azad",23,'M',50,"BigChef","z01");
+
+        restaurant21.hireChef(new Chef("Azad",23,'M',50,"BigChef","z01"));
+
+        Chef chef2 = new Chef("Azad",23,'M',50,"BigChef","z01");
+
+        restaurant21.hireChef(chef2);
+
+        System.out.println(restaurant21);
+
+        Restaurant rest1 = new Restaurant("Ramiz");
+
+        System.out.println(rest1.chefs);
+
+        rest1.hireChef(chef2);
+
+        System.out.println(rest1.chefs);
+
+         */
     }
 
 }

@@ -53,21 +53,25 @@ class CircleObject{
         System.out.println(c1.calculateArea());
 
         System.out.println(c1);
+        System.out.println("===============================");
 
         c1.radius = 5.0; //why it doesn't effect area and perimeter
-        System.out.println(c1.calculateArea());
-        System.out.println(c1.calculatePerimeter());
+//        System.out.println(c1.calculateArea());
+//        System.out.println(c1.calculatePerimeter());
 
         System.out.println(c1);
-        c1.radius = 3.0;
+        System.out.println("===============================");
+        c1.area = c1.calculateArea();
+        System.out.println(c1);
+//        c1.radius = 3.0;
 
-        Circle c2 = new Circle();
-        c2.setInfo(3.0);
-
-        System.out.println(c2);
-
-        System.out.println(c1 == c2);
-        System.out.println(c1.equals(c2));
+//        Circle c2 = new Circle();
+//        c2.setInfo(3.0);
+//
+//        System.out.println(c2);
+//
+//        System.out.println(c1 == c2);
+//        System.out.println(c1.equals(c2));
 
 
     }

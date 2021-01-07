@@ -37,7 +37,7 @@ public class Restaurant {
     public void terminateServer(int employeeID) {
         for(Server each: servers) {
             if(employeeID == each.employeeID) {
-                servers.remove(employeeID);
+                servers.remove(each);
             }
         }
     }
@@ -45,7 +45,7 @@ public class Restaurant {
     public void terminateChef(int employeeID) {
         for(Chef each: Chefs){
             if(employeeID == each.employeeID) {
-                Chefs.remove(employeeID);
+                Chefs.remove(each);
             }
         }
     }

@@ -52,5 +52,22 @@ public class FaceBook {
         System.out.println( scrumTeam.getBusinessAnalyst());
         System.out.println(scrumTeam.getScrumMaster());
 
+        System.out.println("=============================================================");
+
+        /*Group studying notes
+        ScrumTeam steam = new ScrumTeam(new ProductOwner("Azad","APO",'M',2000000,true),
+                          new ScrumMaster("Ramiz","R02",'M',2300000,true),
+                          new BusinessAnalyst("Irina","I05",'F',2500000,true));
+
+        System.out.println(steam.getProductOwner());
+        steam.addDeveloper(new Developer("Ercan","Dev","E52",'M',100000,true));
+        System.out.println(steam.developers);
+        System.out.println(steam);
+        steam.addDeveloper(new Developer("Guvanch","DEv","G32",'E',3000000,true));
+        System.out.println(steam.developers);
+
+         */
+
+
     }
 }
