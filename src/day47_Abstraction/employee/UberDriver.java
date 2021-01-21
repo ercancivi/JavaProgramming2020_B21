@@ -1,6 +1,6 @@
 package day47_Abstraction.employee;
 
-public class UberDriver extends Employee{
+public final class UberDriver extends Employee{
 
     public UberDriver(String name, int age, char gender, String jobTitle, String ID, double salary) {
         super(name, age, gender, jobTitle, ID, salary);
