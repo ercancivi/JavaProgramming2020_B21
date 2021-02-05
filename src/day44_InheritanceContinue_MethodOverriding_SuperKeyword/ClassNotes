@@ -1,0 +1,163 @@
+12/21/2020
+Topics: Inheritance Continue:
+				method Overriding
+				super keyword
+
+Package name: day44_Inheritance
+
+
+warmup Task: ShapesTask
+		1. create a class called Shape
+						vairables: name, isShape(boolean), hasArea(boolean), hasPerimeter(boolean)
+						methods: setInfo, calcArea(), calcPerimeter(),
+								 toString(): returns the name, area and perimeter that are returned by calcArea(), calcPerimeter()
+
+		2. create sub classes of Shape:
+						Circle
+						Rectangle
+						Square
+
+			 give the instance variables that are needed to calculate the Area, perimeter, of those shapes
+
+
+	AFTER TODAY'S TOPIC: Overriding
+		3. override super class' calculateArea(), calculatePerimeter() methods to the sub classes:
+
+		 		Area of the circle:    3.14 * radius * radius
+		 		Area of the rectangle:  width * length
+		 		Area of the square:    side * side
+
+		 		Perimeter of circle:   3.14 * 2 * radius
+		 		Perimeter of rectangle: (width + length) * 2
+		 		Perimeter of Square: 4 * side
+
+
+ 		4. create constructor in shape class that can initialize the instances
+
+
+method overloading: same method name, different parameters
+		returnType does not matter
+
+		Any method can be overloaded
+
+
+
+
+method overriding: same method name, same parameter
+						MUST happen in subclass
+
+						ONLY instance can be overriden (private)
+
+						access modifier: MUST be same or more visible
+						returnType: MUST be same
+						@override annotation MUST be applicable
+
+						visibility:
+							public > protected > default
+
+					methods that cannot be overriden: private, static, constructor, final
+
+
+
+	why we need this?
+		to give different implementation to the method
+
+
+	Advantages:
+		flexible
+		reusable
+		less memory
+
+
+Object class: from  "java.lang", parent of all classes. implicitly done
+
+
+
+
+
+circle
+	area(): r * r * 3.14
+
+rectangle
+	area(): w * l
+
+square
+	area(): s * s
+
+
+	before override:
+		100 methods with 100 implementations
+
+	after override
+		1 methods with 100 implementations
+
+
+
+Constructor' short quiz due by: 11:50am
+
+
+
+this: refers to the object instance. current class
+	this.: to call instances. current class
+	this(): to call constructor. current class
+
+super: refers to the object instance. super class
+	super.: to call instances.  super class
+	super(): to call constructor. super class
+
+
+
+Constructor call in inheritance:
+		1. sub class MUST call super class' constructor
+		2. super class' default constructor is called implicitly
+		3. if super class' constructor is not default, need to call it manually. super
+
+
+
+Task: RemoteWebDriverTask
+
+	1. create a class called WebDriver
+			name, version
+
+			add a constructor to set the instances
+
+			get(URL), maximize(),close()
+
+
+	2. create a sub class called ChromeDriver
+			name = "Chrome Browser"
+			version
+
+			get(): Opening URL with Chrome driver
+			close(): closing chrome driver
+
+
+	3. FireFoxDriver
+
+
+	4. SalariDriver
+
+
+	5. OperaDriver
+
+
+	6. EdgeDriver
+
+
+
+final: Constant ==> cannot be changed
+
+		variables: MUST be initialized. cannot be re-assigned.
+
+		methods: cannot be overriden
+
+		class: class cannot be extended
+				final class can be sub class, but can NEVER be super class
+
+
+
+
+
+
+
+

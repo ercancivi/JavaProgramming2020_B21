@@ -1,0 +1,181 @@
+01/14/2020
+Topics: Abstraction Continue
+				Interface
+				Interface vs Abstract class
+
+
+package name: day48_Abstraction
+
+
+remaining topics:
+		Polymorphism
+		Collections  <-- ArrayList
+		Maps
+		Enum, Garbage collection
+
+
+Interface (not a class): blue print of class
+						 specifies the behviors or actions that class need to implement
+
+						 meant to be implemented (cannot be final)
+
+						 cannot have object (not a class)
+
+
+	 What we can have:
+	    variables: public static and final by default
+	    methods: abstract method
+	             static methods
+	             default method
+
+	what we cannot have:
+	    constructor
+	    instance methods
+	    instance variables
+	    blocks
+
+    what we need interface:
+    	A class can extend one class
+    	A class implement multiple interfaces
+
+
+Abstract class VS Interface: both used for achieving abstraction
+							 both meant to be inherited ( extends, implements)
+							 both cannot be final
+							 both cannot create objects
+
+
+					 abstract class:  a class can only extend one abstract class
+					 				 can have everything a regular class can + abstract method
+
+
+					 interface: a class can implement multiple interfaces
+
+					 			variable: public static and final
+					 			methods: abstract method
+	           						     static methods
+	            					 	 default method
+
+
+
+
+
+ AnimalTask:
+ 	interface hunt:
+ 		hunt()
+
+	interface flyable
+		hunt()
+
+	interface swimable
+		swim();
+
+ 	Abstract Animal:
+ 		sleep(), eat(), drink()
+
+
+ 	Lion extends Animal implements hunt
+
+ 	Tiger extends Animal implements hunt
+
+ 	Dog extends Animal
+
+ 	Cat extends Animal
+
+ 	Dolphin extends Animal impelents swimable
+
+ 	Catfish extends Animal impelents swimable
+
+ 	Shark extends Animal implements swimable, hunt
+
+ 	Eagle extends Animal implements hunt, flyable
+
+ 	Parrot extends Animal implements flyable
+
+ 	Duck extends Animal implements swimable, flyable
+
+
+
+ShapeTask:
+		interface volume:
+			volume();
+
+		Abstract Shape
+			area();
+			perimeter();
+
+		Rectangle  extends Shape
+			area(){ }
+			perimeter(){ }
+
+
+		Circle extends Shape
+			area(){ }
+			perimeter(){ }
+
+
+		Square extends Shape
+			area(){ }
+			perimeter(){ }
+
+
+		Cube extends Shape implements volume
+			area(){ }
+			perimeter(){ }
+			volume(){ }
+
+
+		Cylinder extends Shape implements volume
+			area(){ }
+			perimeter(){ }
+			volume(){ }
+
+
+
+CarTask:
+		interface AutoPilot
+			selfDrive();
+
+		interface AutoPark:
+			AutoPark();
+
+		abstract Car
+			start();
+
+
+
+		Toyota extends Car
+
+		Honda extends Car
+
+		Mercedes extends Car implement AutoPark
+
+		ferrari extends Car implement AutoPark
+
+		Bugatti extends Car implement AutoPark
+
+		Tesla extends Car implement AutoPark, AutoPilot
+
+		Nio extends Car implement AutoPark,  AutoPilot
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

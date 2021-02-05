@@ -1,0 +1,56 @@
+11/16/2020
+Topics: Return Methods
+
+		methods recap
+
+
+package name: day30_ReturnMethods
+
+Warmup tasks: WarmUpTasks
+	1. create a function that can check if the given integer is positive, negative or zero
+
+	2. create a function that can calculate the garde of the student
+
+	3. create a function that can print out the combination of two integer arrays
+
+	4. create a function that can print a string without the duplicated characters
+
+	5.  write a method that can print out the full name of a person in reugral format
+            ex:
+               fullName("cYbErTeK", "SCHOOL");
+
+               	output:
+               		"Cybertek School"
+
+
+
+methods: function
+
+	Access-Modifier   specifier  returnType  methodName (parameter) {
+			statements;
+	}
+
+
+	Access-modifier: public, protected, default, private
+
+	specifier: static, final, abstract, synchronized
+
+	returnType: void, dataType
+			void: does not return any data
+
+			dataType: method MUST return a matching data
+				it makes the data of the method to be reusable
+
+	parameter: dataType
+
+
+return method: return type is not void
+
+come back at: 2:15pm
+
+
+next topics:
+	wrapper class, local date, ArrayList, Custom class
+
+
+

@@ -1,0 +1,114 @@
+12/18/2020
+Topics: Inheritance Review
+			protected access modifier
+
+package: day43_Inheritance
+
+Warmup task
+	Person
+        name, age, gender
+        setInfo, eat(), sleep()
+
+    Employee extends Person:
+        name, age, gender, hourlyRate, jobTitle, ID
+        setInfo, eat(), sleep(), work()
+
+    Tester extends Employee:
+        name, age, gender, hourlyRate, jobTitle, ID
+        Constructor
+        eat(), sleep(), work(), testing(),...
+
+    Developer extends Employee:
+        name, age, gender, hourlyRate, jobTitle, ID
+        Constructor
+        eat(), sleep(), work(), code()...
+
+
+Inheritance: to build IS A relationship between the classes. parent and child classes
+			 easiest and fastest way to get rich ==> extends
+
+			child class (sub):  can inherit methods and variables from parent class (ONLY the visible variables and methods)
+
+					Constructor cannot be inherited
+
+					public: inheritable at every where
+
+					protected: visible and inheritable within same package. aslo visible to the sub classes outside package
+
+					default: inheritable within same package
+
+					Public > Protected > default > private
+
+					public & protected can be inherited to ANY sub class
+
+
+			Parent class (super): Cannot Inherit from sub class
+
+
+			advantages:
+				 reusable
+				 less codes
+				 easy to maintain
+
+
+
+
+
+Restaurant
+
+
+Car Task:
+		Car:
+			brand, model, color, year, madeIn
+			hasEngine, hasWheel, hasTires
+
+			setInfo(),drive(), park(), toString
+
+
+		Toyota
+			isAfordable, isImmortal
+
+
+		BMW
+			isExpensive, isLuxury
+
+			race()
+
+
+		Mercedess
+			autoPilot(), auotoParking()
+
+
+		CarMax
+
+
+	2012 BMW X5 Red, 100000 miles, $20000
+
+
+
+Sports Task:
+
+		Sort:
+			attributes:
+				numberOfPlayers, numberOfRefre, rules, hasScore, hasBall
+
+
+		Soccer:
+
+
+		Basketball:
+
+
+		AmericanFootBall:
+
+
+		....
+
+
+
+
+
+next week:
+	Overriding
+	Constructors  ==> super keyword
+

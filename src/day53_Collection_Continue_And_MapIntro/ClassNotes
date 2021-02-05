@@ -1,0 +1,122 @@
+02/01/2021
+Topics: Collection Continue:
+					Queue
+					Iterable
+
+		Map Intro
+
+
+package name: day53_Collection
+
+Warmup task:
+		1. find frequencies of the characters in a String
+
+			input:
+				aaabbc
+
+			output:
+				a3b2c1
+
+				{ a=3, b=2, c=1}
+
+			APPLY Collection Data Structure
+
+
+
+Collection:
+
+		List (I): has index. accepts duplicates
+
+				Stack:  pop() ==> LIFO
+
+		Set (I): does not have index. does not accept duplicates
+
+		Queue (I): does not have index, accepts duplicates. FIFO
+
+				poll(): removes the first object, returns it. FIFO
+
+
+			ArrayDeque (C): does not have index, keeps the insertion order, does not take null
+
+						allows element to be used from beginning or end:  getFirst() & getLast()
+
+			LinkedList (C): does have index, keeps insertion order, accepts null
+
+							getFirst() & getLast()
+
+			PriorityQueue (C): does not have index, does not keep the insertion order, does not take null
+							order is random, and does not follow FIFO
+
+
+null keyword: does not refer to any object, not an instance of anything
+
+
+Iterable: Root interface of Collection
+		classes that are implementing Iterable gains the ability to iterate the objects by using Iterator (I)
+
+		Iterator (I):
+				1. allows us to get access to each objects of the collection type
+
+				2. allows us to remove any objects from collection type
+
+			methods:
+
+				hasNext(): checks if there is enough elements that can be iterated, returns boolean
+
+				next(): if hasNext() is true ==> can access the elements
+						if hasNext() is false ==> no objects can be accessed
+
+
+				remove(): removes the object from collection type
+
+
+
+
+Polymorphism Short quiz due by 11:40 am
+
+
+
+Map: pair of data. key & value format. Key cannot be duplicated
+
+	methods:
+		put(key, value): insert the given key and value into the map
+
+		get(key): returns the value of the given key
+
+		remove(key): removes the value at given key.
+
+		conatinsKey(Key): verifys if the key is contained, returns boolean
+
+		conatainsValue(Value): verifys if the value is contained, returns boolean
+
+		clear(): clears everything
+
+		isEmpty(): returns boolean
+
+		keySet(): returns all the keys from the map as Set
+
+
+Tasks:
+	1. create a map that can contain student name and student' score
+			put 5 of your friends names and thier scores
+			print out the names of the students who made less than 80
+
+
+	2. create a map that can contains name and Date Of Birth.
+			put 5 of your classmates' names and thier date of birth
+			print out the names of the students who were born before 1980 January 1st
+
+
+	3. create a map that can contain names of counties and thier capitals
+				use for each loop to print out all the capitals
+
+
+
+
+
+
+
+
+
+
+

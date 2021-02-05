@@ -1,0 +1,126 @@
+09/25/2020
+Topics: Arithmetic Operators: +, -, *, /, %
+        Java Recap:
+                escape sequences
+                primitive variables: int, double, char & boolean
+                String concatenation
+
+Package name: day06_ArithmeticOperators
+
+warmUp task:
+
+Task 01: AboutMySelf
+    variables: firstName, lastName, fullName, from, favoriteBook, favoriteShow
+    output:
+        Full name is: YourFullName
+        From: YourCountryName
+        Favorite boos is: "YourFavovoriteBook"
+        Favorite Show is: "YourFavoriteShow"
+
+
+ Task 02: SalaryCalculator
+    variables: salary, stateTaxRate, federalTaxRate,  stateTax, federalTax, totalTax, salaryAfterTax
+                100000    0.08         0.21
+    output:
+        Your salary is: YourSalary
+        Your State Tax: YourStateTax
+        Your federal Tax: federalTax
+        your total tax: TotalTax
+        your salary after tax: YourSalaryAfterTax
+
+
+
+Arithmetic Operators: for numbers
+        -: Subtraction
+        +: Addition
+        *: Multiplication
+        /: Division
+        %: Remainder
+
+10 - 2 ==>8
+10 + 2 ==> 12
+
+Integer * integer ==> int
+decimal * integer ==> double
+decimal * decimal ==> double
+
+integer / integer ==> int
+    10 / 3 =========> 3
+
+decimal  / integer ==> double
+    10.0 /  3   =====> 3.333...
+
+integer / decimal ==> double
+   10  /  3.0    ==> 3.333....
+
+decimal / decimal ==> double  1.0
+  10.0  / 3.0     ==> 3.333....
+
+ 20/3 ==> 6
+ 6.666...
+
+ 20/3.0 ==>  6.666...
+ 6.666...
+
+ 10 * 2 ==> 20
+
+ 10 * 2.0 ==> 20.0
+
+10.0 / 3 = 3.33333
+
+remainder: 10 - (3*3) = 1
+remainder: numerator cannot be evenly divided by the denominator, %
+        remainder = numerator - (denominator * whole number of the result)
+20.0 / 4 = 5.0;
+remainder = 20 - (4*5) = 0
+remainder = 20 % 4 ==> 0
+30.0 / 7 ==> 4.222...
+remainder = 30 - (7*4) = 2
+remainder= 30%4 = 2
+
+Task: DivisionCalculator
+
+        write a program that can calculate first number by second number, and print out the result
+            num1 = 10;
+            num2 = 3;
+            output:
+                10 divide by 3 is equal to 3 with a remainder of 1
+            num1 = 20
+            num2 = 6
+            output:
+                 20 divide by 6 is equal to 3 with a remainder of 2
+            num1 = 100;
+            num2 = 20;
+            output:
+                 100 divide by 20 is equal to 5 with a remainder of 0
+
+come back at 2 pm
+
+addition vs concatenation: +
+    number + number = addition ==> number
+    text + data = concatenation ==> text
+
+Recap:
+    Escape sequences: for text
+        \n: append new line
+        \t: tab space, paragraph space
+        \\: \
+        \": double quote
+
+    Variables: reuse data
+
+        DataType  variableName = Data;
+
+        data needs to match with dataType
+
+    important primitives:
+        int: integer numbers (whole numbers)
+        double: decimal numbers
+        char: single character
+        boolean: True or False
+
+        double > float > long > int > short > byte
+
+    String: text
+        concatenation: combining text with any data, returns String
+

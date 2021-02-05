@@ -1,0 +1,56 @@
+12/03/2020
+Topics: Custom Class:
+				this keyword
+
+				practice
+
+Package name: day36_CustomClass
+
+warmup tasks:
+	1. create a class named Employee:
+            Attributes:
+                name, gender, ID, jobTitle, companyName, salary, hireDate
+
+            Actions:
+                setInfo
+                getInfo
+                attendMeeting
+                working
+
+
+    2. Offer
+
+    3. Student
+
+    4. BankAccount
+
+
+this: refers to object instances
+
+    this.: used for calling instance
+        we use it if local vairable is sharing the same name as instance variable
+
+
+HAS A:
+
+
+
+
+removeAll: if the objects that we wanna remove are already known
+retainAll: if the objects that we wanna keep are already known
+removeIf: if the objects that we wanna remove are already unknown
+
+
+tomorrow:
+        morning: toString
+        after: recap
+
+Monday & Tuesday
+    static keyword
+    constructor
+
+
+
+
+
+

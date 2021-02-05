@@ -1,0 +1,100 @@
+09/17/2020
+Topics: Intro to Programming
+        IDE setup
+
+warmup tasks:
+	task01: (only for those who haven't registered repl.it yet)
+        go to:
+             Canvas -> B21 Java Programming -> Modules -> Programming lab - > Repl.it programming lab -> open in a new browser
+             sign up for repl.it:
+             			step1: username, email and password first and click signup
+             			step2:
+             					first name & last name: make sure to use your real first & last name
+             					school: Cybertek School (Mclean, Virginia)
+
+					MAKE SURE YOU HAVE ENROLLED INTO CLASSROOM "JAVA PROGRAMMING B21"
+
+			Make sure to open your email and verify it by clicking "Complete Verification" in the email you received from repl.it
+
+
+    task02:
+        1. create another sub folder in "Java Programming B21"  and name it "Day01"
+        2. go to  Canvas -> B21 Java Programming -> Modules -> Day01  and download the "day01 presentation" pdf file into the sub folder "Day01"
+        3. Drink a cup of tea or coffee and be ready
+
+
+file: store data
+
+folder: organize files
+
+
+
+shortcut:
+   save: Command/Ctrl + s
+   copy: Command/Ctrl + c
+   paste: Command/Ctrl + v
+   undo: Command/Ctrl + z
+
+
+Java: Programming language
+
+
+    C#, Swift, JavaScript, Python
+
+
+JDK: Java Development Kit
+        contains: JRE, Java Compiler, JVM
+
+
+    JRE: Java Runtime Enviroment
+        jre system library
+            contains the neccessary libraries and resources
+
+    Java Compiler: translates source code to byte code
+
+    JVM: Java virtual machine
+        responsible for running the code
+
+
+
+IDE: Intergrated Development Environment
+
+IntelliJ IDEA: Community version (free)
+
+
+come back at: 12:10 pm
+
+
+creating java project in IntelliJ:
+
+        New Project -> Java & give SDK (JDK), do not select anything else -> Next -> Next(without selecting)
+
+
+preference window:
+
+        windows:
+            file -> settings
+
+        mac:
+            IntelliJ IDEA -> preference
+
+
+Font:
+    preference window -> Editor -> Font
+
+
+set Compiler in IntelliJ:
+        preference window -> Build, execution, deployment -> Compiler -> Java Compiler - > set the "Byte Code Version" to 8
+
+
+
+IdeaProjects: prefered location for the projects that are created in IntelliJ
+
+
+task:
+    1. create a java project named "Self_Practice"  under the same folder with Class project
+    2. setup the compiler' byte code version to 8
+
+
+
+

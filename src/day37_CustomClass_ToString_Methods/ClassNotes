@@ -1,0 +1,52 @@
+12/04/2020
+Topics: Custom class:
+			toString methods
+
+package name: day37_Custom class
+
+warmup task:
+	1. Student:
+            Attributes:
+                    name, age, gender, ID
+            Actions:
+                setInfo
+                getInfo
+                study
+
+
+toString methods: gets executed automatically when you pass the object in print statement
+
+				  instance return method, String
+
+				  No argument
+
+
+Custom class: class & object
+
+			instance variable
+
+			instance methods
+
+			this
+
+
+tasks:
+	1. create class named CybertekSchool
+			create an array of Students that contains 10 objects,
+
+			1. to print the students who has gpa of 3 or greater
+
+			2. to print the students who has gpa between 2 to 3
+
+			3. cretae twou ArrayLists: femaleStudents, maleStudents
+						do not use loop
+
+
+	Cat, Car, Employee
+		LocalDate
+
+
+
+
+
+

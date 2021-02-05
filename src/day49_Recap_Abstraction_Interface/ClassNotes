@@ -1,0 +1,84 @@
+01/15/2020
+topics: Java Recap:
+				abstraction & Inheritance
+
+
+package name: day49_Abstraction
+
+extends vs implements:
+		class implements interface (multiple)
+		class extends class (only one)
+		interface extends interface(s)
+
+
+Interface:
+	WebDriver: get(URL);, close(); ...
+	WebElement
+	List
+	...
+
+Abstract:
+	By
+
+
+
+
+ShapeTask:
+		Interface Volume:
+				hasVolume = true;
+				volume();
+
+		abstract Shape:
+			name
+			area();
+			perimeter();
+
+			toString(){ }
+
+
+		Rectangle extends Shape
+
+		Cube extends Shape implements Volume
+
+		Cylinder extends Shape implements Volume
+
+		Square extends Shape
+
+		Circle extends Shape
+
+
+
+
+RemoteDriverTask:
+
+		JavaScriptExecuter
+			executeScript(script);
+
+		TakeScreenShot:
+			takeScreenShot();
+
+		WebDriver
+			get(URL);
+			close();
+			quite();
+
+
+		RemoteDriver implements WebDriver, TakeScreenShot, JavaScriptExecuter:
+			version
+
+			toString
+
+
+		ChromeDriver
+
+		FireFoxDriver
+
+		OperaDriver
+
+		EdgeDriver
+
+		CybertekDriver
+
+
+
+

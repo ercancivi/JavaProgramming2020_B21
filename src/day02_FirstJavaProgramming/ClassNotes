@@ -1,0 +1,87 @@
+09/18/2020
+Topics: Topic:  main method
+        print statement
+
+WarmUp tasks:
+	Task 01:
+		1. create a java project in IntelliJ named "Self_Practice" (if you haven't done it yet)
+		2. create a java project in IntelliJ named "ReplIt_Tasks"
+
+		Make sure to set the compiler in both of those projects
+
+	Task 02:
+        1. create a sub folder named "Day02" in the folder "Java Programming B21"
+        2. go to Canvas -> Java Programming -> Modules -> Day02, download the day02 pdf file and save it into the sub folder Day02
+        3. drink a cup of tea or coffee and be ready for a productive day
+
+
+JavaProgramming2020_B21: for Java class use ONLY
+
+Self_Practice: for outside the class, self practice java
+
+ReplIt_Tasks: for repl.it tasks only
+
+new project window:
+		file -> new -> Project
+
+
+src: source folder. used for storing packages
+		for everyday' class, we create a separate package
+
+
+package: used for storing java files in organized manner
+		right click src -> new -> Package
+
+		naming rule in java: should start with lowercase
+							 _ is the only special character we can use
+
+
+rename: right click -> Refactor -> rename
+
+class: java file, created under the package
+		right click Package -> new -> Java Class
+
+		where we will be writing our java codes. within the body of the class {   }
+
+
+		naming rule in java: should start with uppercase
+							_ is the only special character we can use
+
+main method: makes the class runnable, runs it as java application
+
+				public  static void main(String[] args){
+						statements;
+
+				 }
+
+			codes are executed from top to bottom
+
+
+
+print statement: prints the outputs to the console, each print statement prints on separate line
+			System.out.println("messages goes here");
+
+
+Task: HelloCybertek
+
+		print:
+				1. Hello Cybertek!
+				2. Hello Batch 21
+				3. My name is: YourName
+				4. Gender: YourGender
+				5. I am From: YourCountry
+
+
+ShortCuts:
+	main:
+		1. type "psvm"
+		2. hit Enter
+			or:
+
+		1.type "main"
+		2. hit Enter
+
+	print statement:
+		1. type "sout"
+		2. hit Enter
+

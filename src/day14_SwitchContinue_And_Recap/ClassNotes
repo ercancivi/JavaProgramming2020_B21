@@ -1,0 +1,171 @@
+10/09/2020
+Topics: Switch ContInue
+		Recap
+
+package name: day14_Switch_Recap
+
+warmup task
+	1. use switch statement to write a program that can return the number of days based on the name of the month
+
+	Ex:
+		year = 2020;
+		month = Mar;
+
+		output:
+			31 days
+
+
+		year = 2020;
+		month = Feb;
+
+		output:
+			29  days
+
+
+		DaysInMonth
+
+
+
+
+		result: 28, 29, 30, 31, invalid
+
+		cases: 2 ==> 28 or 29 days
+		cases: 4,6,9,11 ==> 30 days
+		cases: 1, 3, 5, 7, 8, 10, 12 ==> 31 days
+		default: Invalid
+
+		|| we cannot use in the switch or case, but we can apply or logic in switch by declaring the cases back to back without break statement
+
+switch does not accept:
+					1. long
+					2. float
+					3. double
+					4. boolean
+
+canavs -> java -> modules -> day14 -> if statements short quiz
+
+			completed by 11:40 am
+
+			please use chrome or firefox browsers
+
+
+
+if statement without curly braces: if blocks contains one statement ONLY
+
+								Not a good behavior
+
+
+
+Reveiw topics:
+		1. If statement: boolean
+				if & else statement: for 2 options/possibilities (not less not more than 2)
+
+							if(Condition){
+									A
+							}else{
+									B
+							}
+
+
+				multi-branch if statement: for 3 or more options/possibitiles. else if block
+
+							if(Condition1){
+								A;
+							}else if(Condition2){
+								B;
+							}else if(condition3){
+								C;
+							}
+							.....
+							else{
+								D;
+							}
+
+							ONLY one block gets executed
+							the first true condition will get executed
+
+
+
+				nested if statement: for pre-condition that can be evaluate to different scenarios
+
+						if(Pre- Condition){
+
+							if(condition1){
+							    A;
+							}else if(Condition2){
+								B;
+							}else{
+								C;
+							}
+
+						} else {
+
+							D;
+
+						}
+
+					A: precondition MUST be true, Condition1 is true
+					B: precondition MUST be true, condition1 is false and Condition2 is true
+					C: precondition MUST be true, condition1 & condition2 are false
+					D: precondition MUST be false
+
+
+		2. Ternary: MUST return value
+					? if
+					: else
+
+
+					if(Condition)
+					(condition)?
+
+				TOTAL NUMBER OF ? MUST BE EQUAL TO TOTAL NUMBER OF :
+				() FOR THE CONDITION IS OPTIONAL
+
+
+
+
+
+
+
+age groups:
+
+	age < 21 ===> tenagers
+	55 >= age >=21 ==> Adults
+	age > 55 ==> senior
+
+
+
+come back at 3:30pm
+
+
+task:
+	1. write a program for the salary calculator
+			given info:
+					hourlyRate  40$
+					weeklyHours  45 hours
+					numberofWeeks 48 weeks
+
+			pre conditions: hourlyRate cannot be negative
+							weekly hours cannot be negative or more than 65
+							numberOfWeeks cannot be more than 52 weeks or less than 1
+
+
+			salary  =  hourlyRate *  weeklyHours * numberofWeeks
+
+
+	2. What are the qualifications to join the Army?
+			You must be a U.S. citizen or a resident alien.
+			Be between the ages of 17-34. ...
+			Have a high school diploma.
+			Have no more than two dependents.
+
+
+
+
+System.err.println(): prints the text as error message in red color
+
+			shortcut: serr
+
+
+
+

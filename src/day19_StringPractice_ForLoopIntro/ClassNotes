@@ -1,0 +1,90 @@
+10/20/2020
+Topics: String Practice
+		For loop intro
+
+Package name: day19_ForLoop
+
+Warmup tasks:
+    1. write a program that can return the longest string frow two user inputs
+
+    2. Ask user to enter a word. If the work starts with x, print the word without x.
+                    Input:
+                        xcode
+                    Output:
+                        code
+
+    3. Ask user to enter two words. Then add them together and print. But if the last letter if the first word and the first letter of the last letter is the same, print that character once.
+                    Input:
+                        one
+                        eight
+
+                    Output:
+                        oneight
+
+    4. Write a program  for CheckWords:
+        Program accepts 3 words and :
+            - if they are same length:      print "All words are same length"
+            - if some same length and others not:    print "Not Same nor Different lengths"
+            - if all different length :  print "All different length"
+
+
+    5. write a method that asks user to enter a string.
+        if the string is empty, print: string is empty
+        if the string has more than 3 characters, print the last three characters
+        if the string has less than or equal 3 characters, print the string itself
+
+
+    6. ask the user to enter a word.
+        if the word ends with "ly", print "really???" ,  otherwise, print "never mind"
+
+
+
+Loop: repeated statements
+
+
+for loop: gets executed every time when condition is true, and stops when condition becomes false
+
+		for( initialization; Conidtion ; Iterator){
+
+					statements;
+
+		}
+
+
+		initialization: starting point
+
+					int i = 0;
+
+
+		Condition: ending point, creatd based on initialization
+
+					i < 5
+
+
+		Iterator: co-related to the condition, resposnible for making the condition false, so that the loop will eventually stop
+
+
+
+
+
+
+tasks:
+	1. print out the numbers between 0 ~ 1000
+	2. print out the numbers between 1000 ~ 2000
+	3. print out all the odd numbers between 0 ~ 1000
+	4. print out all the even numbers between 0 ~ 100
+	5. do 50 push ups
+
+tasks for lunch break,
+	6. write a program that can print a ~ z in same line sperated by space
+	7. write a program that can print A ~ Z in same line sperated by space
+	8. print out the first 30000 characters in same line seperated by space
+
+
+
+
+
+
+
+
+

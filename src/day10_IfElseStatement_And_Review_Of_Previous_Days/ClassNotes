@@ -1,0 +1,99 @@
+10/02/2020
+Topics: if else statement
+
+Package name: day10_IfElseStatement
+
+WarmUp tasks:
+
+Task 01: ValidTriangle
+         A triangle is valid if the sum of all the three angles is equal to 180 degrees.
+         Write a program that declares three integers as angles
+         and check whether a triangle is valid or not.
+
+Task 02: MaximumNumber
+         write a java program that accepts three numbers and return the maximum number
+                (assume that none of them are equal)
+
+Task 03: MinimumNumber
+         write a java program that accepts three numbers and return the minimum number
+                (assume that none of them are equal)
+
+
+
+PLZ use: firefox or chrome
+
+Canvas -> java - > quizzes - > Variables short quiz
+
+        due by, 11:40 am
+
+
+
+if & else statement: only if there are two possibilities/conditions (NOT less Not more)
+
+        if(condition){
+
+                statements1;
+
+        }else{  //otherwise
+
+                statements2;
+
+        }
+
+        statements1: if the condition is true
+        statements2: if condition is false
+
+
+
+afternoon: just reviews
+
+        Unary operators: -, +, --, ++
+
+                --: decrement, decreases the value by 1
+
+                ++: increment, increases it by 1
+
+                post vs pre:
+                        pre: changes the value by 1 right away
+                                ++ variable
+                                -- variable
+
+                        post: first passes the current value, next changes the value by 1
+                                variable ++
+                                variable --
+
+
+        short hand operators: =, +=, -=, *=, /=, %=
+                        =:
+                            int a = 10;
+
+                            a = 20;
+
+        relational operators: >, <, >=, <=, ==, !=    ==> boolean ==> T/F
+
+                        10 > "10" // the data we are comparing MUST be save type
+                        10 > 9
+                        9 < 10
+
+
+        logical operators: ||, &&, !  ==> boolean ==> T/F
+
+
+
+        If statement:
+                single if statement:
+
+                if & else statement:
+
+
+= vs ==:
+        = : assigning value to variables
+
+        ==: compares, equal
+
+
+next topic:
+        multi-branch if statement
+
+
+

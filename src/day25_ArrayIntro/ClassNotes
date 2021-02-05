@@ -1,0 +1,99 @@
+10/29/2020
+Topics:
+		Morning:
+				Array Intro
+
+		Afternoon:
+				Recap
+
+Package name: day25_ArrayIntro
+
+Data Structures: to use the data efficiently, organize the data
+	1. Array
+	2. Collection
+	3. Map
+
+
+
+variable:
+
+		DataType  name = data;
+
+		int number = 100;
+
+
+
+Array variable: a variable that can have multiple data
+
+
+	declare array:
+		DataType[] arrayName = {data1, data2, data3... };
+
+
+	initializing the size only:
+		DataType[] arrayName = new  DataType[length];
+
+		String[] students = new String[10];
+
+		ARRAY' SIZE IS FIXED
+
+	length ==> total number of elements
+	length -1 ==> max index
+
+
+
+task:
+	write a program that can find the maximum and minimum number for an array of integer
+
+
+
+come back at: 2:10 pm
+
+
+
+Tasks:
+	Calculator
+	1. Addition, subtraction, multiplication, devision, remainder
+
+		would you like to continue? Yes, No
+
+
+
+	2. write a program for the room reservation:
+		   A, King Bed ==> 120$
+		   B,  Queen Bed ==> 100$
+		   C,  single Bed ==> 80$
+    the program asks the user which bedroom does he/she wants to reserve and calculates the total price, and then the program will ask:
+        do you want to reserve another room:
+                    if yes ==> repeat the previous steps
+                    if no ==> your total price is: $$$
+                    while answer is neither yes or no ==> please re-enter
+    HINT: nested loop task, outer loop need to be an infinite loop
+
+
+
+    3. unique chars
+    		only occurred once
+
+
+	4. remove the unique characters from string
+
+			str = "abcabd";
+
+			output:
+				abab
+
+
+
+Assignments:
+	1. write a program that can find the frequency of each characters from a string
+
+			str = "ababcaa";
+
+					// nonDup =  "abc"  a b c
+					  //     frequency: 4 2 1
+
+			output:
+				a4b2c1
+
+

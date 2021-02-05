@@ -1,0 +1,112 @@
+09/29/2020
+Topics: Short hand Operators: =, +=, -=, *=, /=, %=
+        Relational Operators: >, <, <=, >=, ==, !=
+
+package name: day08_ShortHand_Relational
+
+WarmUp tasks:
+
+    1. write a program that converts the given number of gallons to liters.
+                Note: MUST return integer result
+                Ex:
+                    gallons: 100
+                    output:
+                        100 gallons equal to 378 liters
+                Hint: 1 gallon = 3.785 liters
+
+    2. write a program that can convert the given number of kg to pounds
+            Note: MUST return integer result
+            Ex:
+                kg = 100;
+                output:
+                    10 kg equal to 220 pounds
+            Hint: 1kg = 2.20462 pounds
+
+    3. manually calculate the following code fragments:
+                1. int a = 100;
+                   int b = -a++ + ++a - a-- * a-- % 2
+
+
+
+Shorthand operators: for numbers
+
+        =: assigning value to variable
+
+                int a = 10;
+                    a = 20;
+                    sout(a) // 20
+
+
+        -=: subtraction assignment
+
+                int a = 10;
+                    a -= 7;  ==> a = a - 7
+                    sout(a) // 3
+
+
+        += addition assignment
+
+                int a = 10;
+                    a += 10;
+
+                    sout(a);
+
+
+        *=: multiplication assignment
+
+                int a = 10;
+                    a *= 10;  a = a * 10
+
+                    sout(a); // 100
+
+
+        /=: division assignment
+
+                int a = 10;
+                    a /= 5;  a =  a/5
+
+                   sout(2);
+
+
+        %=: remainder assignment
+
+                int a = 2000;
+                    a %= 2;    a = 2000 % 2
+
+                    sout(a); //0
+
+
+Relational Operators: return boolean
+    >, <, >=, <=, ==, !=
+
+
+or logic:
+    as long as one condition is true ==> true
+    both  are false ==> false
+
+
+
+task:
+    1. write a program that can check if the the given triangle is valid
+            angle1 = 30
+            angle2 = 30
+            angle = 90
+
+            sum = 150
+
+            isValid
+
+        output:
+            The triangle is valid: false
+
+
+
+Thursday: Logical Operators
+          Single if statement
+
+
+Friday
+          if & else
+          Recap
+
+

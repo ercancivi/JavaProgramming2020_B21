@@ -1,0 +1,139 @@
+11/02/2020
+Topics: Arrays Continue:
+				Array Utility
+				String methods
+
+
+Package name: day26_Arrays
+
+WarmUp tasks:
+	FrequencyOfEachChars
+	1. write a program that can return the frequency of characters from a String
+			Ex:
+				str = "ababaac";
+
+				output:
+					a3b2c1
+
+
+	2. write a program that can return the maximum number from an array of integers
+
+	3. write a program that can return the minimum number from an array of integers
+
+	4. finding min and max from array
+
+	5. Write a program that can return the average number from user inputs
+            ex:
+                [1,2,3]
+                average: 2
+
+                [10, 15, 5, 6]
+                average: 9
+
+
+3 Data Structures:
+		1. Array
+		2. Collection
+		3. Map
+
+
+Arrays Utility:
+
+	Arrays class: in "java.util" package
+
+			import PackageName.ClassName;
+			import java.util.Arrays;
+
+
+			Arrays.toString( array ): converts the array to String
+									MUST use in order to print the entire array
+
+			Arrays.sort(array): sorts the array in ascending order
+
+					int[] arr = {9,4,2,1, 10, 11, 0};
+
+							  {0, 1, 2, 4, 9, 10, 11}
+
+
+			equals(arr1, arr2): returns boolean
+
+
+String methods:
+
+	toCharArray(): returns char array from string
+			str = "abcd";
+
+			str.toCharArray() ==> {'a', 'b', 'c', 'd'}
+
+	split(strValue): returns String array, splits the string by given value
+
+		str = "Today is great day";
+		str.split(" "); ==> {"Today", "is", "great", "day" }
+
+
+
+
+
+
+Task:
+	1. write a program that can sort an array of integers in descending
+
+				int[] arr = {5,1,2,6,7, 0};
+
+				output:
+					7 6 5 2 1 0
+
+
+					output:
+						[7, 6, 5, 2, 1, 0]
+
+
+
+
+	2. write a program that can check how many palindrome strings in the array
+
+
+"Today is great day"
+
+
+	3. reverse the sentence
+
+		"I love learning java"  ==>  {I, love, learning, java}
+
+		java learning love I
+
+	4. count java
+		"I like to learn java, because java is cool, and java is useful, javascript"
+
+
+Take home assignment:
+	5. print the unique words from an array of String
+
+			String[] words = {"C#", "Java", "C#", "Python", "Python", "Ruby", "Swift", "C++", "Swift"}
+
+
+			output:
+				Java Ruby C++
+
+
+	6. print out the longest words from an array of String
+
+			String[] words = {"Monday", "Apple", "Banana", "Strawberry", "Blackberry"};
+
+			output:
+				Strawberry Blackberry
+
+
+	7. write a program that can find the unique numbers from an integer array
+
+			int[] arr ={1,2,3,1,2,4}
+
+			output:
+				3 4
+
+
+topic: for each loop
+	   Multi-dimensional array
+
+
+

@@ -1,0 +1,124 @@
+12/17/2020
+Topics: OOP Inheritance Intro:
+			extends keyword
+			IS A Relation
+			IS A Relation VS Has A Relation
+
+
+package name: day42_Inheritance
+
+
+IS A  vs HAS A:
+
+	Class Engine{
+
+	}
+
+
+	class Car{
+
+		Engine obj = new Engine();   // Car Has An Engine
+	}
+
+
+	class BMW extends Car{  // BMW IS A Car
+
+		Engine obj = new Engine(); // BMW Has An Engine
+
+	}
+
+	class Toyota extends Car {  // Toyota IS A Car
+		Engine obj = new Engine();  // Toyota HAS An Engine
+	}
+
+	class Ford extends Car{ // Ford IS A Car
+		Engine obj = new Engine() // Ford HAS An Engine
+	}
+
+
+
+
+
+Test{
+	new Scanner(Systtem.in);  // Test class HAS A Scanner
+}
+
+
+Tasks:
+	Animal:
+
+
+
+	Dog
+		bark
+
+	Cat
+		meow
+
+	Tiger
+		hunt
+		roar
+
+	Fish
+		swim
+
+	Eagle
+		fly
+
+
+
+	Zoo
+
+
+Task:
+	Device:
+		instance variables: brand, model, price
+		static: madeIn, hasBattery, hasPowerButton
+
+		methods: setInfo, toString
+
+
+	TV
+
+
+	Phone
+
+
+	Computer
+
+
+	Radio
+
+
+
+Task:
+	Person
+		name, age, gender
+
+		setInfo, eat(), sleep()
+
+	Employee
+		name, age, gender, hourlyRate, jobTitle, ID
+		setInfo, eat(), sleep(), work()
+
+	Tester:
+		name, age, gender, hourlyRate, jobTitle, ID
+		Constructor
+		eat(), sleep(), work(), testing(),...
+
+	Developer:
+		name, age, gender, hourlyRate, jobTitle, ID
+		Constructor
+		eat(), sleep(), work(), code()...
+
+
+
+
+
+
+
+
+
+
+
+

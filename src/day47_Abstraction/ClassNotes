@@ -1,0 +1,158 @@
+01/11/2020
+Topics: 	Abstraction:
+					abstract method
+					abstract class
+					interface
+
+
+Package Name: day47_Abstraction
+
+tasks:
+	Shape
+	Car
+	Animals
+	Employee
+	Phone
+
+
+OOP:
+	Encapsulation: hiding data
+	Inheritance: IS A relation
+
+
+OOP Abstraction: hiding the implementations  and details of the method
+			concentrating on essentials/important things. without worrying about the details
+
+	abstract method: a method without the implementations/body
+					 Meant to be overriden (cannot be private, final, static)
+
+		2 ways to achieve:
+				1. abstract class
+				2. interface
+
+Abstract class: meant to be inherited. (cannot be final)
+			cannot create an object(not concrete)
+
+
+abstract class VS regular class:  both are class
+								  can have methods, variables, blocks...
+
+			  differences:
+			  		class: can have objects
+			  			   cannot have abstract method
+			  			   can be final
+
+			  		abstract class: can't have objects
+			  						can have abstract method
+			  						cannot be final
+
+
+
+
+
+
+method overriding: MUST happen in sub class
+				   cannot override private, final, static methods
+				   access modifier need to be same or more visible
+
+
+
+
+Shape Task:
+
+	Shape:
+		double area();
+		double perimeter();
+
+
+    Circle extends Shape:
+
+    	double area(){
+ 			r * r * PI
+    	}
+
+
+    Square extends Shape:
+    	double area(){
+ 			side * side
+    	}
+
+
+
+CarTask:
+
+		Car
+				start();
+
+
+
+		Toyota extends Car:
+			start(){   // how it's done
+				insert key: twist the key to ignition
+			}
+
+		Mercedes:
+			start(){   // how it's done
+				push button: press brake, push start button
+			}
+
+		Tesla:
+			start(){    // how it's done
+				voice control: say start
+			}
+
+		BMW:
+			start(){   // how it's done
+				call mechanic: oil change, jump start, ask your frinds to push
+			}
+
+
+
+
+Inheritance short quiz: due by 11:40 am
+
+
+
+Tasks:
+	1. create a class named Person
+				name, age, gender
+
+	2. create a sub class of Person name Employee
+				ID, jobTitle, salary
+
+				work();
+
+
+
+	3. Tester
+
+			work(){
+				testing the application
+			}
+
+
+	4. Developer
+
+			work(){
+				write codes
+			}
+
+	5. UberDriver
+
+			work(){
+				drivers
+			}
+
+	6. Chef:
+
+
+	7. server:
+
+
+
+WebElement (interface)
+By (abstract class)
+
+
+
+

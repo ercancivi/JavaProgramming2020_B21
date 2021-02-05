@@ -1,0 +1,65 @@
+09/15/2020
+Topics: Intro to Computer Programming
+							ascii table
+							data & database
+							file & folder
+							basic shortcuts
+
+sublime
+Repl.it registration
+
+warmup tasks:
+			please join:
+			#muhtar_only
+			#question_answer
+			#repl_it
+			#tasks_solutions
+
+		channels on slack
+
+ascii table: a universal system that's understood by all computers.
+			each character will have a corresponding number to represent it
+
+		120: 49+50+48
+
+data: information
+
+database: collection of data
+
+file: used for storing data
+	different types of files:
+		text files                      .txt
+		picture files                   .jpg, .png
+		PDF files                       .pdf
+		Java files                      .java
+		HTML files                      .html
+		SQL files                       .sql
+		Properties files                .properties
+		Feature files                   .feature
+
+folder:
+
+sublime:
+	save:
+		Mac:
+			file -> save as -> in save as box: fileName.extension -> save
+
+		windows:
+			file -> save as -> fileName.extension -> save
+
+			changes are made
+
+shortcuts:
+
+	windows:
+			copy: CTRL + C
+			paste: CTRL + V
+			undo: CTRL + Z
+			save: CTRL + S
+	mac:
+			copy: Command + C
+			paste: Command + V
+			undo: Command + Z
+			save: Command + S
+
+	break till: 12:20pm

@@ -1,0 +1,39 @@
+10/29/2020
+Topics: Nested Loop Continue
+        Practice
+Package name: day24_NestedLoop
+Warmup tasks:
+    1. write a program that ill ask user to enter two numbers and calculates the sum of those two numbers. then it asks the user if he/she wants to continue
+                    if the answer is yes, repeat the whole process again
+                    if the answer is no, only return the addition
+                    but while the anser is neither yes or no, the the program should repeatedly ask the user re-enter
+            HINT: nested loop task, outter loop need to be an infinite loop
+
+
+    2. write a program for the room reservation:
+            King Bed ==> 120$
+            Queen Bed ==> 100$
+            single Bed ==> 80$
+            the program asks the user which bedroom does he/she wants to reserve and calculats the total price, and then the program will ask:
+                do you want to reserve another room:
+                            if yes ==> repeat the previous steps
+                            if no ==> your total price is: $$$
+                            while answer is neither yes or no ==> please re-enter
+            HINT: nested loop task, outter loop need to be an infinite loop
+
+
+
+    3. write a program that can find the unique characters from a string
+            Ex:
+                 str = "AABCCD";
+                 output:
+                        BD
+            approach:
+                    find the frequncy of each character one by one, and if the frequency of the character is equal to 1, it means it's unique
+             In previous section we leaned how to find the frequency of one character. you will need to repeat the same steps
+
+
+
+
+
+

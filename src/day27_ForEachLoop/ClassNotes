@@ -1,0 +1,87 @@
+11/05/2020
+Topics: For Each Loop
+
+Package Name: day27_ForEachLoop
+
+
+Task:
+	UniqueIntegers
+    1. write a program that can print out the unique numbers from an array of integers
+
+	    Ex:
+	        int[] arr ={1,1,2,3,3,4}
+
+	        output:
+	            2 4
+
+    2. write a program that can print out the unique words from an array of string
+
+
+
+3 data structures:
+		1. Array
+		2. Collection
+		3. Map
+
+
+for:
+
+	for(int i = 0; i<= arr.length-1; i++){
+
+	}
+
+
+
+For Each Loop: a loop that's already iterated. started from index 0 till last index
+
+		precondition: there MUST be a data structure in order to use for each
+
+		order is fixed
+
+
+		syntax:
+
+			for(DataType   each : Collection of Data ){
+
+			}
+
+
+			DataType MUSt match with the Collection of data
+
+
+
+Task:
+	1. create string array, and store the names of your  class mates (10)
+
+			print the first three characters of each name
+
+
+	2. write a program that can combine two int arrays and then create the third array
+
+			arr1 = {1,2,3,4};
+			arr2 ={5,6,7};
+
+			output:
+				arr3 = {1,2,3,4,5,6,7}
+
+
+	3. String[] group1  ==> 5 names
+	   String[] group2  ==> 10 names
+	   String[] group3  ==> 7 names
+
+	   String[] groups ==> 22 names
+
+
+
+   4. frequency of characters
+   			MUST apply for each loop
+
+   			str = "aabbbaa";
+
+   			output:
+   				a4b3
+
+
+
+
+

@@ -1,0 +1,128 @@
+02/05/2021
+Topics: Map Continue:
+				creating Entry
+				List of Maps
+
+		Garbage Collection
+		Enum
+		String vs StringBuffer vs StringBuilder
+
+package name: day54_Map
+
+Warmup task:
+	1. write a program that stores the duplicated characters from a string into a map
+
+	        Ex:
+	        	str = "aabcccdee";
+
+	        	output:
+	            	{a=2, c=3, e=2}
+
+	2. write a program that stores the unique characters from a string into a map
+
+	        Ex:
+	        	str = "abacbdeef";
+
+	        	output:
+	            	{c=1, d=1, f=1}
+
+
+methods:
+
+	values(): returns all the values
+
+	keySet(): returns all the keys
+
+	entrySet(): create Map Entries
+
+		Entry<Key, Value>
+			getValue():
+			getKey():
+
+
+finalize(): called by GC right before object gets collected. implicitly done right before destroying the object thats eligible for GC
+
+
+final vs finally vs finalize
+	final: keyword
+	finally: block
+	finalize: method
+
+
+
+Enum: fixed set of constants
+
+		we use it when we need to take one out from from a small set of values
+
+
+		String color = "anytext"
+
+		int priority = any integer
+
+		String browserName =  "any text"
+
+
+
+	enum Colors{
+		Blue, Red, White, Black, Yellow
+	}
+
+	enum Priority{
+		low, medium, high
+	}
+
+	enum Browsers{
+		Chrome, Firefox, Safari
+	}
+
+	enum Directions{
+		East, South, West, North
+	}
+
+	enum WorkDays{
+		Monday, Tuesday, Wednesday, Thursday, Friday
+	}
+
+
+	Browsers browserName = only the Browsers
+
+	String browserName = any text
+
+
+	String direction = any text
+
+	Directions direction =
+
+
+	String workdays = "Cybertek"
+
+	String nameOfMonth = "Java"
+
+
+
+String vs StringBuffer vs StringBuilder: char sequences
+
+			String: immutable, string pool
+
+			StringBuilder: mutable, not synchronized
+
+			StringBuffer: mutable, synchronized ==> thread safe
+
+
+String str = "cybertek" ==> String pool
+
+StringBuilder = new StringBuilder("cybertek");
+
+
+
+
+
+
+
+
+
+
+
+
+
+

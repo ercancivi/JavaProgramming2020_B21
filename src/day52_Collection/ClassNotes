@@ -1,0 +1,135 @@
+01/29/2021
+Topics: Collection Intro
+
+Package name: day52_Collection
+
+please go to Canvas -> java -> modules - > day52
+
+		download the pdf presentation file and Collection Hierarchy image
+
+
+Data Structures: work with data
+				 in order to manage data effeciency, and in an organized manner
+
+		Array (Fixed)
+		Collection (dynamic)
+		Map (dynamic)
+
+
+Array: size is fixed
+		supports both primitives & non-primitives
+		can be multi-dimensional
+
+
+Collection framework: consists of multiple interfaces, each interface is implemented by classes
+
+	Collection (I): extended by List, Set, Queue
+
+					dynamic
+
+					does not support primitives
+
+			List (I): has index numbers, accepts duplicated objects
+					  implemented by ArrayList(C), LinkedList(C), Vector(C), Stack(C)
+
+					  ArrayList (C): array based class. internally uses array.
+					  					retrieving is faster ( get() )
+
+					  LinkedList (C): each objects are doublly linked
+					  					doublly liked ==> adding & removing are faster
+
+					  Vector (C): is synchronized, Thread-safe
+					  			synchronized version ArrayList
+
+
+					  Stack (C): is synchronized, Thread-safe, LIFO
+
+					  			pop(): LIFO, removes the last inserted object from stack
+					  						and returns it
+
+
+
+			Set (I): does not have index, does not accept duplicates
+					implemented by HashSet, LinkedShashSet, TreeSet
+
+					HashSet (C): order can be random
+
+					LinkedhashSet (C): keeps the insertion order
+
+					TreeSet (C): in sorted order
+								does not accept null key
+
+
+
+			Queue (I): does not have index, accepts duplicated objects, FIFO
+
+
+synchronized: is used for achieving thread safety
+			advantage: thread-safe
+			disadvantage: slow
+
+			one thread at a time
+
+Process: execution/execution isntance of a program
+		ex: firefix bbrowser, word document, media player, slack....
+
+Thread: subset of a process. A sequence of execution within process
+
+		shares all the resources of the process
+
+
+	Concurrently:
+		in chrome browser (process): 1500 * 3 sec = 4500 s
+				tab1 (Thread1): etsy.com
+				tab2 (Thread2): amazon.com
+				tab3 (Thread3): ebay.com
+				...
+
+
+		in slack (process):
+				dm1 (thread1)
+				dm2 (thread2)
+				dm3 (thread3)
+				...
+
+
+	Paralely:
+		chrome browser (prcoess1)  300
+				etsy.com
+
+		firefox browser (process2) 500
+				amazon.com
+
+		safari browser (process3)  500
+				ebay.com
+
+
+
+
+
+multi-thread: two or more thread being executed within a process
+
+
+multi-tasking: running multiple program concurrently
+
+
+
+
+
+
+
+Collections (C): utility class of collection
+
+
+
+come back at: 2:20pm
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,172 @@
+12/07/2020
+Topics: Static members
+		Static VS instance
+		one copy vs multiple copies
+
+package name: day38_StaticKeyword
+
+Warmup Tasks:
+		1. create a custom class called Circle
+				Attributes:
+					radius, diameter, area, perimeter
+
+				methods:
+					caculateArea: returs the area of the circle
+
+					calculatePerimeter: returns the perimeter of the circle
+
+					setInfo: initializes all the instance of the Circle
+
+					toString methods
+
+
+		2. Create a custom class called SalaryCalculator
+					Attributes:
+						hourlyRate, weeklyHours, stateTaxRate, federalTaxRate, salary, salaryAfterTax
+
+					Methods:
+						calculateSalary: returns the annual salary
+
+						calculateStateTax: returns the total tax
+
+						calculateFederalTax: returns the total tax
+
+						calculateTotalTax: returns the total tax
+
+						calculateSalaryAfterTax: returns the salary after calculator
+
+						setInfo: accepts four arguments (hourlyRate, weeklyHours, stateTax, federalTax) and iitializes all instances
+
+						toString() method
+
+
+instance: belong to the object
+	 each object has it's own copy of instances
+
+
+static: belong to the class, class member
+		there is only one copy is shared by the class and all objects of the class
+
+		static variables
+		static methods
+		static block
+		static class
+
+		static ONLY accepts static members
+
+
+static variables: belong to the class.
+				ONLY one copy
+
+static methods: belong to the class.
+
+
+
+CybertekStudent
+		instance: name, age, groupNumber
+		static:		 schoolName
+
+
+Circle:
+	instance: r, d, area
+	static: PI
+
+
+iphone:
+	attributes:
+			instance: model, color, price, storage
+			static: brand, operating system, madeIn, deignated
+
+
+Computer:
+		instance: price, brand, color, ...
+		static: hasScreen, hasBattery, hasMemory
+
+
+
+
+
+Task
+		create a class called Tester
+					Attributes:
+						name, employeeID, JobTitle, Salary
+						isHuman, isCybertekStudent
+
+					Actions:
+						setInfo(), smokeTesting(),  creatingTicket(), toString()
+
+
+		create a class called Developer
+					Attributes:
+						name, employeeID, JobTitle, Salary
+						hasCodingSkills,
+
+					Actions:
+						setInfo(), coding(),  fixingBug(), toString()
+
+		create a class called ScrumTeam
+
+					Attributes:
+							PO, BA, SM,
+							ArrayList<Tester> testersList = new ArrayList<>(),
+							ArrayList<Developer> devopsList = new ArrayList<>(),
+
+							hasSprint, hasMeeting
+
+					Actions:
+							setInfo(): sets the names of: PO, BA, SM
+
+							addTester(Tester tester): adds the given tester to the testers arraylist
+
+							addTesters(Tester[] testers): adds the given testers to the testers arraylist
+
+							addDeveloper(Developer developer): adds the given developer to the developers arraylist
+
+							addDevelopers(Developer[] developers): adds the given developers to the developers arraylist
+
+							removeTester(long employeeID): removes the given tester from the testers arraylist
+
+							removeDeveloper(long employeeID): removes the developer from the developers arraylist
+
+							toString(): prints number of tester,& developers,  PO name, SM name, BA name
+
+
+
+		create a class called MyScrumTeam:
+					1. create an array of Testers and store the testers info in your group
+					2. create an array of developers store the developers info in your group
+					3. create an object of ScrumTeam and store the testers & developers above to the scrum team
+
+					Answer the interview question "Tell me about your scrum team"
+
+
+Task:
+	create 4 developers and 3 testers objects
+	create one ScrumTeam Objects
+
+come back at: 2:10 pm
+
+
+
+Take home tasks:
+	1. create a custom class for Pizza that should contain the following:
+			variables:
+					size (either small, medium, large)
+					number of cheese topping
+					number of pepperoni topping
+					tips
+
+			methods:
+					customizeOrder(): allows user to set the size and toppings of Pizza
+					calcCost(): returns the total cost  as double
+					toString(): get the full informationa nd total cost of Pizza
+
+
+			Pizza cost is determined by:
+						Small: $10 + $1.5 per pepperoni topping + 1$ per cheese topping
+						Medium: $12 + $1.5 per pepperoni topping + 1$ per cheese topping
+						Large: $14 + $1.5 per pepperoni topping + 1$ per cheese topping
+
+
+
+

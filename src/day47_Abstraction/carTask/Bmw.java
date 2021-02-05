@@ -9,7 +9,7 @@ public class Bmw extends Car{
 
     @Override
     public void start() {
-        System.out.println("call mechanic: oil change, jump start, ask your frinds to push");
+        System.out.println("call mechanic: oil change, jump start, ask your friends to push");
     }
 
 }

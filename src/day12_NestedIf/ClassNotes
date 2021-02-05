@@ -1,0 +1,67 @@
+10/06/2020
+Topics: Nested If
+
+package name: day12_NestedIf
+
+Warmup tasks:
+	1.  write a program that can check the equality of the three given numberrs
+	 			declare 3 numbers n1, n2, n3
+	  			if n1 and n2 are equal  => n1&n2 are equal
+	   			if n2 and n3 are equal ==> n2&n3 are equal
+	   			if n3 and n1 are qual ==>n3&n1 are equal
+				if all equal ==> all equal
+				if none of them are euqal ==> none of them are equal
+
+	2. write a program that can define the age groups of a person
+	             age groups are:
+	                    infant (< 1 year)
+	                    Toddler (3 - 5),
+	                    Kid (6 - 9),
+	                    Pre-Teen (10 - 12),
+	                    Teenager (13 - 17),
+	                    Young Adult (18 - 20),
+	                    Adult (21 - 39),
+	                    Young Middle-Aged Adult (40 - 49),
+	                    Middle-Aged Adult (50 - 54),
+	                    Very Young Senior Citizen (55 - 64),
+	                    Young Senior Citizen (65 - 74),
+	                    Senior Citizen (75 - 84),
+	                    Old Senior Citizen (85+)
+
+
+
+Nested If: if the condition can be evaluate to multiple scenario
+
+
+		if(pre-condition){
+
+			if(Condition1){
+				statementsA
+			}else{
+				statementB
+			}
+
+		}else{
+			statementC
+		}
+
+
+		statementA: first precondition MUST be true, and Condition1 is true
+		statementB: first precondition MUST be true, and Condition1 is false
+		statementC: pre-condition is false
+
+
+DaysInWeek:
+
+NameOfMonth:
+
+GradeReport:
+
+
+
+Thursday:
+	switch
+	local variable
+
+
+

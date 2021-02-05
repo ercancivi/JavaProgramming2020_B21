@@ -1,0 +1,152 @@
+12/01/2020
+Topics: Custom Class Intro
+
+package name: day35_CustomClass
+
+Warmup tasks:
+	task01:
+			1. create an Array of string called country names
+			2. write a program that can remove all the country names that have length of 10 or greater
+
+	task02:
+			1. create an Array of LocalDate
+			2. write a program that can remove all the dates before August-15-2016
+
+	task03:
+			1. create an Array of String called jobTitles
+			2. write a program that only keeps the jobTitles that are: SDET and QA
+
+	task04:
+		Given a list of Integers 1, 2, 3, 4, 5, 6 ....etc. remove all values greater than 100.
+
+				solution 1: use lambda
+				solution 2: do not use lambda
+
+
+Custom class:
+
+	String class:
+		Attributes:
+				text, index
+
+		actions:
+				substring(), toUpper(), toLower(), indexOf()....
+
+	Car class:
+		Attributes: instance variables
+			brand, model, color, price....
+
+		actions: isntance methods
+			driver(), stop()....
+
+Object: came from the class, instance of class
+
+		brand
+
+	Car:
+		car1: Mercedes
+		car2: BMW
+		car3: Toyota
+		car4: Ford
+		car5: Tesla
+		...
+
+instance variable: object variables
+
+		each object has it's own copy of instance variables
+
+		declared outside the methods
+
+instance methods: object methods
+
+				does not have static
+
+
+Custom Class:
+	1. instances
+	2. statics
+	3. Constructor
+
+
+
+Methods short quiz, due by 11:40 am
+
+
+Create teh following custom classes:
+
+	1. Student:
+			Attributes:
+					name, age, gender, ID
+
+			Actions:
+				setInfo
+				getInfo
+				study
+				sleep
+				...
+
+
+	2. Employees:
+			Attributes:
+				name, gender, SSN, ID, jobTitle, companyName, salary
+
+			Actions:
+				setInfo
+				getInfo
+				attendMeeting
+				working
+
+		BankOfAmerica
+		create an arraylist of Emplooyees and store 5 employee objects
+		remove all employees from the list who are making less than 100K
+
+		NO seperate classes
+
+
+	3. BankAccount
+			Attributes:
+				accountName, accountNumber, availableBalance
+
+			Actions:
+				setInfo: sets accountName, accountNumber,
+				getInfo:
+				deposit:
+				wihtdraw:
+				showBalance:
+
+
+	4. Offer:
+		Attributes
+			Location, salary, jobTitle, hasBenifit(boolean), WFH(boolean), hasPTO(boolean), isFullTime
+
+		Actions:
+				setInfo
+				getInfo
+
+		MyOffers:
+			create 7 objects of Offer class and store them into an ArrayList of Offer
+
+			write a program that can only keep the offers from local area
+
+			write a program that can remove all offers that are not for SDET or QA
+
+			write a program that can remove all offers that are not work from home
+
+			write a program that can remove all offers that does not have benefits
+
+			write a program that can remove the offers that are not full Time
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

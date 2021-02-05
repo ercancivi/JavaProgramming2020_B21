@@ -1,0 +1,74 @@
+10/13/2020
+Topics: Scanner
+
+Package name: day15_Scanner
+
+Todays goals:
+	- Cover what is Scanner and what it is used for
+	- Importing classes
+	- Scanner methods to read primitive values
+
+-----------------------------------
+Warmup tasks:
+
+
+1) Given a number of people on the ship determine how many need to be crew members and how many can be passengers. Print how many of each type there should be.
+	Total: 50 | 20 crew, 30 passengers
+	Total: 75 | 25 crew, 50 passengers
+	Total: 100 | 30 crew, 70 passengers
+	Any other number of people on the ship is not valid
+
+-----------------------------------
+
+Scanner: used for getting user inputs
+
+	- Located in the java.util package
+
+	- To make a Scanner object:
+		 Scanner input = new Scanner(System.in);
+
+		 -> the object name can be anything
+
+Importing:
+	Used to access classes in other packages
+
+	- Syntax:
+
+		import packageName.ClassName; --> Import a specific class from a package
+
+		import java.util.Scanner; --> Import Scanner class
+
+		import packageName.*;  --> Import all of the classes in that package
+
+		import java.util.*; --> Import all the classes from the java.util package
+
+
+	- Order in a java file needs to be PIC
+		Package -> Import -> Class
+
+			- Package is optional
+			- Import is used only when a different class objects are used
+			- Class is mandatory
+
+	- Your classes are always importing java.lang
+
+Scanner methods:
+
+		nextByte() -> allows user to enter a byte datatype number
+		nextShort() -> allows user to enter a short datatype number
+		nextInt() -> allows user to enter a int datatype number
+		nextLong() -> allows user to enter a long datatype number
+		nextBoolean() -> allow user to enter a boolean datatype value (true or false)
+		nextFloat() -> allow use to enter a float datatype number
+		nextDouble() -> allow user to enter a double datatype number
+
+
+	Thur: close(), next(), nextLine()
+
+
+Task:
+
+	- Ask the user to enter an int number, print if the number is even or odd
+
+	- Ask the user to enter their age (byte), ask them to enter their favorite number (long), and ask them if they are a student (boolean). Print all the values from the inputs
+

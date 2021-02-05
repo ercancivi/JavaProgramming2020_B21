@@ -1,0 +1,117 @@
+10/27/2020
+Topics: do-while loop
+		branching statements
+		Nested Loop Intro
+
+Package name: day23_NestedLoop
+
+Warmup task:
+	FrequencyOfWord
+	1. write a program that can return the frequncy of the a word from the sentence
+		Ex:
+			sentence = "Java is a programming language, I like to learn Java";
+			word = "Java";
+
+			output:
+				2
+
+				sentence.contains(Java)
+
+
+
+		1.2 check if the number of the cat in sentence is equal to number of the dog
+			senstence = "dog dog Dog Dog cat CAT cAt CAt"
+
+			output:
+				true
+
+
+
+	2.  Write a program that asks user to enter a string. If string started with uppercase and ends with lowercase letter then print true, otherwise print false
+        Ex:
+           Input: Cybertek
+           output: true
+
+           Input: CyberteK
+           output: false
+
+
+while: repeated if statement
+
+	while(conidtion){
+		statements;
+	}
+
+
+do-while: Just Do It
+
+		do{
+
+			statements;
+
+		}while(condition);
+
+
+	do while gets executed at least once even if the condition is false
+
+
+
+
+branching statements:
+
+		break: exits the loop and switch
+
+		continue: skips the current iteration of the loop
+
+		System.exit(0): terminates the entire program
+
+
+
+Nested Loop: loop inside another loop
+
+	when do we need nested?
+			only if we need to repeat a loop
+
+	1 2 3 4 5 6 7 8 9 10
+	1 2 3 4 5 6 7 8 9 10
+	1 2 3 4 5 6 7 8 9 10
+	1 2 3 4 5 6 7 8 9 10
+	1 2 3 4 5 6 7 8 9 10
+
+
+
+
+	  *******
+      *******
+      *******
+      *******
+      *******
+      *******
+      *******
+      *******
+      *******
+      *******
+
+
+
+
+      *
+      **
+      ***
+      ****
+      *****
+      ******
+      *******
+      ********
+
+
+
+
+
+
+
+
+
+
+
+

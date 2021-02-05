@@ -1,0 +1,105 @@
+11/24/2020
+Topics: ArrayList
+
+Package name: day33_ArrayList
+
+Please work on the following tasks, class starts at 10:10 am
+
+warmup tasks:
+		DateTimePractice
+	1. use the LocalDate & Time get the date and time in the following format:
+
+			Tuesday, 1:00 pm, Nov/24/2020
+
+	2. create an array of LocalDate and store the next 10 day's dates, use for each loop to print each Date in the following formar:
+				MonthName/Day, Name
+
+				ex:
+					November/25, Wednesday
+
+
+	3. write a program that can return the sum of all the digits from a string
+            ex:
+                input: "a1b2c3"
+                output: 6
+                    (1+2+3= 6)
+
+                input: "Today's date is 04/27/2020"
+                output: 17
+                    (0+4+2+7+2+0+2+0=17)
+
+Data Structurs:
+	1. Array: size is fixed, [], supports primitives & non primitive
+	2. Collection: size is dynamic, does not support primitives
+	3. Map: size is dynamic, does not support primitives
+
+
+ArrayList: part of Collection, is a class, internally uses array
+
+			size is automatically adjusted
+
+			does not support primitives
+
+			has index
+
+
+ArrayList methods:
+
+	add(object):  adds elements to the next available index
+
+	add(index, object): adds the element to the given index
+
+					DO NOT SKIP INDEXES
+
+					{1,2,3}
+					add(1, 4);
+					{1,4,2,3}
+
+
+	get(index): gets the element at given index
+
+	size(): returns the total number of the elements (same with length in array)
+
+	set(index, newElement): replaces the old element at given index with the given new element
+
+			int
+	remove(index): removes the object at the given index, does not return (void)
+						remove one object at a time
+
+	remove(object): remove the first matching object, returns boolean
+						remove one object at a time
+
+	clear(): clears the list, size will be 0
+
+	indexOf(Object): returns first matching objects index num, as int
+
+	lastIndexOf(Object): returns last matching objects index num, as int
+
+	contains(Object): verifys if the object is conatined in the list, returns boolean
+
+	equals(list): compares if the given list is equal to the list, returns boolean
+
+	isEmpty(): checks if the list is empty (if size 0)
+
+
+Array's Short quiz is due by: 2:20pm
+
+
+
+
+next:
+	continue with ArrayList methods
+
+	Collects Utility class
+
+
+
+
+extra office hours:
+		Wed: 2pm ~ 4pm
+		Thu: 1pm ~ 3pm
+
+
+
+
+

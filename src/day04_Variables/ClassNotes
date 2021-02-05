@@ -1,0 +1,91 @@
+09/22/2020
+Topics: Variables continue
+		variable naming rules
+
+Package name: day04_Variables
+
+WarmUp tasks:
+Task 01: Variables_Practice
+                declare the following variables:
+                            num1 = 100;
+                            num2 = 10000;
+                            num3 = 3.5;
+                            num4 = 2.5f;
+                            num5 = 999999999999;
+                            num6 = 850000;
+
+                print each of the variables above on the console
+
+Task 02: KgToPounds
+     write a program that can convert the given Kg to pound and print the result
+        Ex:
+           if kg = 10;
+            output:
+                22.0462
+
+               Hint: 1 kg = 2.2 pounds
+
+Task 03: CalculateCircle
+     write a program that can calculate the area and perimeter of the circle based on the given radius
+
+
+     	Hints: Area of circle = r * r * PI
+     		  Perimeter of circle = 2 * r * PI
+
+Task 04: SalaryCalculator
+	write a program that can calculate the salary after tax based on the salary and tax rate
+			Ex:
+				if salary = 100000
+				   taxRate = 0.28
+
+				   totalTax = salary * taxRate;
+				   salary after tax = salary - totalTax
+
+
+
+declare Variables:
+		DataType variableName = Data;
+
+		variable naming rules: readable & meaningful
+					1. MUST be UNIQUE ALL TIMES
+					2. need to start with letters
+					3. cannot have any special characters other than _ and $
+					4. CAN NOT be java reserved words
+					5. we should apply camelCase, if variable contains more than one word
+
+					Salary After Tax
+
+					salaryAfterTax
+					salaryaftertax
+
+
+
+
+for numbers: byte, short, int, long, float, double
+
+	Integers(whole): int
+	Decimals: double
+
+
+char: for single characters
+		A, z, 1, ! ...
+	 single characters must be given in ''
+
+
+boolean: True/False expressions
+
+		10 > 20 ==> false
+		20 > 10 ==> true
+
+
+String: String is a sequence of characters,
+		string of texts, texts must be inside ""
+
+
+
+
+
+
+
+
+

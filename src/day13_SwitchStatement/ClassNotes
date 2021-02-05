@@ -1,0 +1,103 @@
+10/08/2020
+Topics: Switch Statement
+		Local variable
+
+Package name: day13_SwitchStatement
+
+Warmup tasks:
+   	 	1. write a program that can find the number of days in a month
+            		Note: MUST USE NESTED IF
+
+                    DaysInMonth
+
+                    precondition: 1 ~ 12
+
+                        days: 3 days, 31 days, 28, 29
+                                invalid
+
+        2. write a program that can display the selected browser
+                1. declear a String variable called browserName
+                2. Assume that the valid browsers are: chrome, firefox, opera, safari, edge, ie
+                3. if the browser name does not match with the valid browsers' names, out put should be: Invalid Browser Name
+
+
+             Ex:
+                browserName = "chrome";
+
+                output:
+                    Chrome Browser is Selected
+
+
+formatting the code in intelliJ:
+
+        for mac:
+            Command + option + L
+
+        for windows:
+            Ctrl + Alt + L
+
+
+
+Switch Statement:  switch, case, break, deafult
+
+    syntax:
+
+    switch(Data){
+
+        case data1:
+                statement1;
+                break;  // close the case block and exits switch
+
+        case data2:
+                statement2;
+                break;  // close the case block and exits switch
+
+        case data3:
+                statement3;
+                break;  // close the case block and exits switch
+
+        deafult:
+            statement;
+            break;
+
+    }
+
+    switch statement's expression cannot be boolean
+
+    case value MUSt match with switch statement' expressions and UNIQUE
+
+    default: gets executed if none of the cases is matched. can be placed at anywhere in the switch, there can only be one default block
+
+    break: used for exiting the switch statement
+            if we dont give break statement, then the next available block gets executed until it reaches another break statement or } of the switch
+
+
+
+
+task:
+
+
+    1. valid browsers: chrome, firefox, opera, safari, edge, ie
+
+    string str = "chrome"
+
+    outPut:
+        CHROME BROWSER IS SELECTED
+
+
+    2. write a program that can print the name of the month based on the number.
+     if numbers is greater than 12 or less than 1, print invalid
+
+            MUST use switch
+
+
+
+
+
+Tomorrow' reveiw topics:
+    if statements
+    ternary
+    switch statement
+
+
+

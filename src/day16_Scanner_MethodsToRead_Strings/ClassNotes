@@ -1,0 +1,55 @@
+10/15/2020
+Topics: Scanner
+
+Package name: day16_Scanner
+
+Todays goals:
+    - Scanner methods to read Strings
+    - Applying Scanner more dynamically
+
+-----------------------------------
+WarmUp tasks:
+
+        1.  write a program for a rate calculator: RateCalculator
+            1. asks the user to enter a salary (double)
+            2. asks the user how many hours he/she works in a week (as int)
+            3. print the hourly rate of the employee
+
+            assume that one year has 52 weeks
+
+            hourRate = salary / (weeklyHour * 52)
+
+-----------------------------------
+
+Scanner:
+
+    next():  Read one word (no space), and returns it as a String
+        - If multiple words are given, then only the first word before the space is the value stored
+
+    nextLine(): Reading multiple words (You can have spaces between the words) and nextLine will accept the 'enter' inputs
+
+        - The issue of nextLine accepts the enter input and not allowing you to correctly store your String
+        - The solution to this issue is to add an extra nextLine method, which is not stored to anything
+
+    close(): This method will close your Scanner.
+
+
+Task:
+
+    Ask the user how many people they live with?
+        if user lives with Less than 2 people: print "Live with less than 2 people"
+        if the user lives with 3 - 6 people: print "Live with 3 - 6 people"
+        if the user lives with more than 6 people: print "Live with "more than 6 people"
+
+    Ask the user what city they live in?
+    Ask the user if the live in downtown ("yes or no")
+        if you live downtown, ask them have you thought about moving to the suburbs? ("yes or no")
+            if they have thought about it print "do it its great", if they have not print "You should think about it"
+
+    Ask the user their favorite animal?
+        Print "Wow %animal is a great animal"
+    Ask the user how many pets they want?
+        Print "Interesting, do you want %numberOfPets %favoriteAnimals?"
+    Ask SSN?
+
+    Print everything and points

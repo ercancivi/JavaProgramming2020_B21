@@ -1,0 +1,65 @@
+10/23/2020
+Topics: Continue statement
+		while Intro
+
+class starts at: 10:05 am
+
+Package name: day21_WhileLoops
+
+Warmup tasks:
+	SumOfNumbers
+	1.  Write a program that calculates the sum of numbers entered by the user until user enters a negative number.
+			hint: you need an infinite loop
+
+	FactorialNumber
+	2.  Write a program that can return the factorial number of any given number
+			Ex:
+				input: 5
+				output: 120  ( because: 5! = 5 * 4 * 3 * 2* 1 = 120 )
+
+
+Branching statements:
+
+		break statement: exits the the loop & switch
+
+		continue statement: skips the current iteration of the loop
+
+
+Tasks:
+  		//1. print odd number between 1 to 50 (MUST use continue statement)
+        //2. print even number between 1 to 50  (MUST use continue statement)
+        //3. print numbers between 1 to 50 that are evenly divisible by 3 (MUST use continue statement)
+
+
+
+for(initialization; Condition; Iterator){
+
+}
+
+
+while loop: repeated if statement
+
+	while(condition){
+		statements;
+	}
+
+
+
+hints:
+	4 data types that switch does not accept:  double, boolean, float, long
+	case value in switch MUST match with expressions of the switch
+
+
+Canvas -> Java -> day21 -> Switch statements short quiz
+			due by: 12:30
+
+
+come back at 2:10 pm
+
+
+
+
+
+
+
+

@@ -1,0 +1,90 @@
+11/23/2020
+Topics: Local Date & Time
+		Wrapper Class ==> primitives
+
+class starts at: 10:05 am
+
+Package name: day32_LocalDate_WrapperClass
+
+warmup task: Warmup
+	1. create a return method called addElements that can add an Inteeger  after the  last index of an integer array
+
+	2. create a return method called addElements that can add a double after the last index of a double array
+
+	3. create a return method called addElements that can add a String after the last index of a String array
+
+	4. create a return method called addElements that can add a char after last index of a char array
+
+
+
+java.time: a package that conatins all time units and data types
+
+LocalDate: year, month, day
+		2020-11-23
+
+
+LocalTime: hour, minute, second
+		10:49:40
+
+
+LocalDateTime: combination of both LocalDate & LocalTime
+		year, month, day, hour, minutes, seconds, milliseconds
+
+
+methods:
+	of
+	now
+	format
+
+	isBefore
+	isAfter
+	plusday,month,year,hour, minutes
+
+1. create string array to have 5 of your classmate's names
+2. create an array that contains thier DofB
+
+	print: name : DofB
+
+
+DateTimeFormatter:
+
+		LocalDate:
+		    year: yyyy
+		    month: MM (number), MMM(three letters of month), MMMM(full name)
+		    days: dd
+		    name of day: E(three letters) , EEEE (full name)
+
+		LocalTime:
+		    hours: hh
+		    minutes: mm
+		    seconds: ss
+		    am/pm: a
+
+Data Structures:
+		1. Array: supports both primitives and none primitives
+		2. Collection: does not support primitives
+		3. Map: does not support primitives
+
+
+Wrapper class: Byte, Short, Integer, Long, Float, Double, Character, Boolean
+
+				presensted in "java.lang" package.
+
+
+ 		Autoboxing: coverting primitives to wrapper class value
+ 		Unboxing: converting wrapper class value to primitives
+
+Integer, Double,  Boolean, Character
+
+ 		methods:
+ 			1. parse methods: converting string to primitives
+ 						not case sensitive
+
+
+ 			2. valueOf methods: converting string to Wrapper class
+ 						not case sensitive
+
+
+
+
+

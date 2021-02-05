@@ -1,0 +1,105 @@
+11/06/2020
+Topics: Multi-dimensional Array
+		Java Recap (array & loop, for each loop)
+
+
+Package name: day28_MultiDimensionalArray
+
+
+single dimensional array: array that contains data
+	int[] arr1 = { 1, 2, 3 };
+				   0  1  2
+
+    String[] arr2 = {"A", "B", "C"}
+    				  0    1    2
+
+
+Multi-dimensional array:  array that contains arrays
+
+				n dimensional array MUST contains (n-1) dimensional arrays
+				2									1
+
+				2 dimensional array MUST contains (2-1) dimensional arrays:
+
+						//					 0 1 2     0 1 2 3 4
+						int[][]  arr2D = {  {1,2,3} , {4,5,6,7,8}  };
+								//			   0		    1
+
+
+									arr2D[1][2] ==> 6
+									arr2D[0][1] ==> 2
+
+									arr2D[0] ==> {1,2,3}
+
+									[index num of 1D array][index num of elements]
+
+
+				3 dimensional array MUST contains (3-1) dimensional arrays
+						int[][]  arr2D1 = {{1,2,3},{4,5,6,7,8}};
+						int[][]  arr2D2 = {{10,20,30},{40,50,60,70,80}};
+
+						int[][][]  arr3D = {  {{1,2,3},{4,5,6,7,8}} , {{10,20,30},{40,50,60,70,80}} };
+													  0									1
+
+
+								[index Num of 2D Array][index Num of 1D Array][index num of elements]
+
+
+
+Arrays.toString(arrayName):  used for printing single dimensional arrays
+
+Arrays.deepToString(arrayName): used for printing multi-dimensional dimensional arrays
+
+
+Afternoon: Recap
+			1D array
+				for loop
+				for each loop
+
+			2D array
+
+
+
+Next topic: custom methods
+
+
+Task:
+	0.1 Assume that there is only one String that's the longest string,
+
+	0.2 there could be more than one strig that are largest
+
+
+	1. write a program that can find the maximum & minimum number from any two dimensional array
+
+				{{10,20,30},{40,50,60,70,80}};
+
+				max: 80
+				min: 10
+
+
+
+int arr2D[][] = { {1,2,3} ,  {4,5,6,7,8} ,  {9,10,11,12,13} };
+
+            task1:
+                9 10 11 12 13
+                4 5 6 7 8
+                1 2 3
+
+            task2:
+            	3 2 1
+            	8 7 6 5 4
+            	13 12 11 10 9
+
+        	task3:
+        		13 12 11 10 9
+        		8 7 6 5 4
+        		3 2 1
+
+
+
+
+
+
+
+
+

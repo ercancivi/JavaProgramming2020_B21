@@ -1,0 +1,238 @@
+09/21/2020
+Topics: Comments
+        println & print
+        escape sequences
+        Variables intro
+
+        +, -, *, /
+
+WarmUp tasks:
+    1. create a package in "JavaProgramming2020_B21" project named: day03_Variables
+
+    2. create a subfolder named "Day03" under "Java Programming 2020"
+            go to canvas -> java -> modules -> day03  download the presentation and save it into the sub folder Day03
+
+    3. create a class called EmployeeInfo:
+                    print:
+                        your company's name
+                        your name
+                        your EmployeeId
+                        your JobTitle
+                        your Salary
+
+    4. create a class called PersonalInfo: just for yourself to use
+                    print:
+                        name
+                        gender
+                        date of birth
+                        address
+                        phone number
+                        SSN
+
+
+    5. create a class called Rectangle and print the following shape:
+
+                            * * * * *
+                            * * * * *
+                            * * * * *
+                            * * * * *
+                            * * * * *
+                            * * * * *
+                            * * * * *
+                            * * * * *
+                            * * * * *
+                            * * * * *
+
+
+
+
+Comments: giving notes to the codes. does not effect the actual codes
+
+    single line comments: starts with //
+                          only used for one single line
+
+
+    multi line comments: used for multi line comments
+
+                        /*
+                            comment1
+                            comment2
+                            comment3
+                        */
+
+
+
+    task 01:
+             *
+            * *
+           * * *
+          * * * *
+         * * * * *
+
+
+    task 02:
+
+        *
+        * *
+        * * *
+        * * * *
+        * * * * *
+        * * * * * *
+        * * * * * * *
+
+
+    task 03:
+                *
+              * * *
+            * * * * *
+          * * * * * * *
+         * * * * * * * *
+        * * * * * * * * *
+               * * *
+               * * *
+               * * *
+               * * *
+               * * *
+               * * *
+               * * *
+               * * *
+
+   task 04:
+                    ^
+                   / \
+                  /   \
+                 /     \
+                /       \
+                ---------
+
+    task 05:
+                ^
+               / \
+              /   \
+             /     \
+            /       \
+            ---------
+            \       /
+             \     /
+              \   /
+               \ /
+                v
+
+    task 06:
+            ^
+           / \
+          / * \
+         / * * \
+        / * * * \
+        ---------
+        \ * * * /
+         \ * * /
+          \ * /
+           \ /
+            v
+
+
+
+print statements:
+
+        System.out.println(): appends new line at the end
+
+        System.out.print(): does not append new line at the end
+
+
+
+Escape Sequences: MUST be used in ""
+
+    \n: Enter key, starts a new line
+    \t: Tab Key, starts a paragraph space
+    \\: back slash
+    \': single quote
+    ': single quote
+    \": double quote
+
+
+
+\"   \"
+
+
+Task:
+    1. create a class called AboutMySelf
+            write a paragraph to tell us about your self
+                Must include:
+                        favorite music
+                        book
+                        TV series
+
+
+
+Variable: makes the data reusable
+
+    declare variables:
+        DataType name = Data;
+
+        DataType decides what data can be stored into variable name
+
+
+primitives dataType: byte, short, int, long, float, double, char, boolean
+
+        Numerical primitives: byte, short, int, long, float, double
+
+                            double  > float > long > int > short > byte
+
+        Integer numbers (whole number): byte, short, int, long
+                                        (int is preferred)
+
+        decimal numbers: float, double
+                         (double is preferred)
+
+        char:
+            a, b, !, @, 1, 2, 3
+
+        boolean:
+            10 < 9 ===> incorrect ==> false
+            10 > 9 ===> correct ==> true
+                        maybe
+
+
+
+
+
+Task:
+    1. write a program that can calculate the area & perimeter of any rectangle that has integer number
+
+    2. write a program that can calculate the area and perimeter of the square that has integer values
+            A = side * side
+            P = side * 4
+
+            int side = 10;
+
+            int area = side * side;
+            int perimeter = side * 4;
+
+            sout(area)
+            sout(perimeter)
+
+    3. Circle
+            A = radius * radius * PI
+            P = 2 * radius * PI
+
+            double radius = 4.5;
+            double PI = 3.14
+
+            double area = radius * radius * PI;
+            double perimeter = radius * 2 * PI;
+
+
+    come back at: 3:47 pm
+
+
+B12: Javangers
+B15: Spartan
+B17/18: BugBusters
+B20: JavaTutles
+B21: BugHunters, purple cows, SDETs...
+
+
+
+
+

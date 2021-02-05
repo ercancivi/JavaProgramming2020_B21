@@ -1,0 +1,172 @@
+10/19/2020
+Topics: String class Recap
+		String manipulation
+
+package name: day18_Strings
+
+Office hours:
+	Wednesday 2pm ~ 4pm
+
+
+String: is an object that represents the immutable version char sequences
+
+		1. Object
+				1.1 String literal:
+							String str = "Batch 21";
+
+				1.2 new keyword:
+							String str = new String("Batch 21");
+
+							every-time when we use new keyword, new object will be created in heap
+
+
+				Java Heap: memory place for all the objects
+
+				String pool: special memory location for string literals
+							Does not take duplicated text
+
+
+
+		2. Immutable: once object is created, cannot modify the object of the string
+
+
+		3. Char Sequences:  each character in string has representative number called index number
+
+					index: starting from zero and keep increases
+
+					String str = "batch 21";
+							//	  01234567
+
+					String firstName ="John";
+								//	   0123
+
+					String lastName = "Aaron";
+								//     01234
+
+								//J.A
+
+					String initial = firstName.charAt(0)+"."+lastName.charAt(0);
+
+
+
+String methods:
+
+	charAt(index): returns the character form the string at the given index
+
+	length(): counts the total number of characters, returns it as int
+
+			last index: length()-1
+
+	concat(str): concatenation
+
+	toLowerCase(): creates the lower case version of the string, returns new string
+
+	toUpperCase(): creates the Upper case version of the string, returns new string
+
+	trim(): removes the spaces that are not used, returns new string
+				will not trim the spaces between words
+
+	        Today  Is  Great  Day
+
+
+
+	substring: creates the substring of the string object, returns the new string
+
+			String str = "I love Java Programming";
+						//0123456789
+
+			1. substring(beg Index, end index): creates the substring starting from the given beginning index till the ending index (ending index is excluded)
+
+						str.substring(7, 11) ==> "Java"
+
+
+			2. substring(beg index): creates substring from the given beginning index till the end of string
+
+
+
+	replace(OldValue, newValue): all the old value in the string will replaced by new value
+
+
+	replaceFirst(OldValue, newValue): first occurred old value with given new value
+
+	indexOf(Value): returns the index number of the first occurred character , as int
+
+	lastIndexOf(Value): returns the index number of the last occurred character , as int
+
+	isEmpty(): checks if the String is empty, return boolean
+
+	contains(str): checks if the given str is contained in string or not
+
+	startsWith(str): checks if the string is started with given str
+
+	endsWith(str): checks if the string is ended with given str
+
+
+
+
+
+Task:
+
+1. Ask user to enter two words. Print first word without its first character then print the second word without its first character.
+                Input:
+                    apple
+                    banana
+
+                Output:
+                    ppleanana
+
+
+come back 2:20pm
+
+
+task for lunch break:
+	1. write a program to ask the user to enter two numbers and a math opertaor, the program should be able to return the calculation of those two numbers
+
+		ex:
+			num1 = 10;
+			num2 = 20;
+			operator = *
+
+			output:
+					200
+
+			num1 = 30
+			num2 = 5
+			operator = /
+
+			output:
+					6
+
+
+		pre condition:
+				valid math operators are *, /, -, +, %
+
+
+
+	2. write a program that can return the initials of the user
+			ex:
+				cybertek
+				school
+
+			output:
+				C.S
+
+
+	3. write a program that can check if the first and last characters of the string are same
+
+			ex:
+				level
+
+			output:
+				same
+
+
+				java
+
+			output:
+				not same
+
+
+
+come back at: 3:35pm
+
